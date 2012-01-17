@@ -1,0 +1,5 @@
+git pull					# get current state of the master
+git status					# show current changes
+git add *					# add all changed files to possible commitment
+git commit -a				# commit changes
+git push -u origin master	# integrate commited changes into master git
