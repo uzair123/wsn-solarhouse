@@ -1,0 +1,10 @@
+HOWTO
+
+Problems occour if the humidity sensor uses the z1-sensors.h lib and the temperature sensor uses the sky-sensors.h lib.
+The modified versions of temperature sonsors also use the z1-sensors.h.
+
+z1-sensors.{h, c} are needed in /platforms/z1/dev. In Makefile.z1: CONTIKI_TARGET_SOURCEFILES += z1-sensors.c
+
+temperature-sensor-modified{.c, .h} must be copied into the dev folder and added to the makefile.z1
+
+
