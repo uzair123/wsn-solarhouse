@@ -1,0 +1,11 @@
+# files
+symbols.c
+symbols.h
+
+# Filetypes
+*.a
+*.map
+*.z1
+
+# Folders
+obj_*
