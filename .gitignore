@@ -6,6 +6,7 @@ symbols.h
 *.a
 *.map
 *.z1
+*.ihex
 
 # Folders
 obj_*
