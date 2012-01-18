@@ -2,11 +2,7 @@
 #include "lib/random.h"
 #include "net/rime.h"
 #include "net/rime/collect.h"
-#include "dev/leds.h"
-#include "dev/button-sensor.h"
-
 #include "net/netstack.h"
-
 #include <stdio.h>
 
 //#define SINK 1
@@ -15,6 +11,7 @@
 
 static struct collect_conn tc;
 
+//matchs einen unterschied ob man hier static benutzt? kein plan.
 struct collect_data{
     int light;
     uint8_t temp;
@@ -30,7 +27,8 @@ static void
 recv(const rimeaddr_t *originator, uint8_t seqno, uint8_t hops){
     struct collect_data data;
     memcopy(&data, packetbuf_dataptr(), sizeof(struct collect_data));
-    
+	    
+
     printf("light: %d temp: %u co2: %d humidity: %d\n", 
         data.light, 
         data.temp, 
