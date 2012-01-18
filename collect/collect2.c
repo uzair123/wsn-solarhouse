@@ -6,9 +6,11 @@
 
 #include "dev/battery-sensor.h"
 #include "dev/humidity-sensor.h"
+#include "dev/temperature-sensor.h"
 #include "dev/co-sensor.h"
 #include "dev/sensorstation.h"
-#include "dev/tmp102.h"
+#include "sensors.h"
+
 #include "dev/cc2420.h"
 
 #include <stdio.h>
@@ -16,6 +18,8 @@
 #include <string.h>
 /*---------------------------------------------------------------------------*/
 //#define SINK 1
+//#define STATION 1
+//#define Z1 1
 
 #define SEND_INTERVAL_SECONDS 30
 #define SETTLE_TIMEOUT_SECONDS 120
@@ -29,6 +33,7 @@ AUTOSTART_PROCESSES(&solarhouse_collect_process);
 /*---------------------------------------------------------------------------*/
 static struct collect_conn tc;
 /*---------------------------------------------------------------------------*/
+//according to pablos mail
 struct solarhouse_sensor_data{
     int16_t co2_station;
     int16_t temp_station;
@@ -64,7 +69,10 @@ PROCESS_THREAD(solarhouse_collect_process, ev, data){
     cc2420_set_txpower(CC2420_TXPOWER);
 
     /* initialize sensors */
-    SENSORS_ACTIVATE(battery_sensor);
+		// DEPENDING ON WHICH DEVICE!! or not?
+	SENSORS_ACTIVATE(battery_sensor);
+	SENSORS_ACTIVATE(temperature_sensor);
+	SENSORS_ACTIVATE(humidity_sensor);
     /* ... */
 
     collect_open(&tc, COLLECT_CHANNEL, COLLECT_ROUTER, &callbacks);
@@ -101,10 +109,17 @@ PROCESS_THREAD(solarhouse_collect_process, ev, data){
 }
 /*---------------------------------------------------------------------------*/
 static struct solarhouse_sensor_data read_sensors(){
-    struct solarhouse_sensor_data data;
-    memset(&data, 0, sizeof(struct solarhouse_sensor_data));
+
+	struct solarhouse_sensor_data data;
+	memset(&data, 0, sizeof(struct solarhouse_sensor_data));
+
+//#ifdef ...
+	data.co2_station = NULL;
+	data.temp_station = NULL;
+	data.humidity_station = NULL;
+	data.temp_z1 = temperature_sensor.value(0);;
+	data.humidity_z1 = humidity_sensor.value(0);
+	data.battery = battery_sensor.value(0);
     
-    data.battery = battery_sensor.value(0);
-    
-    return data;
+	return data;
 }
