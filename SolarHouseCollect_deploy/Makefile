@@ -1,4 +1,4 @@
-CONTIKI_PROJECT = collect2
+CONTIKI_PROJECT = solarhouse-collect
 
 all: $(CONTIKI_PROJECT)
 

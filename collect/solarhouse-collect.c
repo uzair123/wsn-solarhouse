@@ -17,8 +17,8 @@
 /*---------------------------------------------------------------------------*/
 //#define SINK 1
 
-#define SEND_INTERVAL_SECONDS 30
-#define SETTLE_TIMEOUT_SECONDS 120
+#define SEND_INTERVAL_SECONDS 10 //30
+#define SETTLE_TIMEOUT_SECONDS 15 //120
 #define COLLECT_CHANNEL 130
 #define NUM_RETRANSMITS 15
 #define CC2420_TXPOWER 31
@@ -28,26 +28,42 @@ AUTOSTART_PROCESSES(&solarhouse_collect_process);
 /*---------------------------------------------------------------------------*/
 static struct collect_conn tc;
 /*---------------------------------------------------------------------------*/
-struct solarhouse_sensor_data{
-    int16_t light;
+struct solarhouse_sensor_data
+{
+    // not used sensors
+    // int16_t light;
+    // int16_t battery;
+    
+    // sensor station values
     int16_t temperature;
     int16_t co2;
     int16_t humidity;
-    int16_t battery;
+	
+	// normal mote values
+    int16_t temperature_internal;
+    int16_t humidity_internal;
 };
 /*---------------------------------------------------------------------------*/
 static struct solarhouse_sensor_data read_sensors();
 /*---------------------------------------------------------------------------*/
-static void recv(const rimeaddr_t *originator, uint8_t seqno, uint8_t hops){
+static void 
+recv(const rimeaddr_t *originator, uint8_t seqno, uint8_t hops)
+{
     struct solarhouse_sensor_data data;
     memcpy(&data, packetbuf_dataptr(), sizeof(struct solarhouse_sensor_data));
     
+    /*
     printf("light: %d temperature: %d co2: %d humidity: %d battery: %d\n", 
         data.light, 
         data.temperature, 
         data.co2, 
         data.humidity,
         data.battery);
+    */
+    
+    printf("co2: %d temperature: %d humidity: %d temp.(intern): %d humidity(intern): %d \n",
+    	data.co2, data.temperature, data.humidity,
+    	data.temperature_internal, data.humidity_internal);
 }
 /*---------------------------------------------------------------------------*/
 static const struct collect_callbacks callbacks = { recv };
@@ -75,9 +91,11 @@ PROCESS_THREAD(solarhouse_collect_process, ev, data){
     etimer_set(&et, SETTLE_TIMEOUT_SECONDS * CLOCK_SECOND);
     PROCESS_WAIT_UNTIL(etimer_expired(&et));
 
-    while(1) {
+    while(1) 
+    {
         /* Send a packet every SEND_INTERVAL_SECONDS seconds. */
-        if(etimer_expired(&periodic)) {
+        if(etimer_expired(&periodic)) 
+        {
             etimer_set(&periodic, CLOCK_SECOND * SEND_INTERVAL_SECONDS);
             etimer_set(&et, random_rand() % (CLOCK_SECOND * SEND_INTERVAL_SECONDS));
         }
@@ -86,10 +104,13 @@ PROCESS_THREAD(solarhouse_collect_process, ev, data){
 
 #ifndef SINK
         // send sensor data
-        if(etimer_expired(&et)) {
+        if(etimer_expired(&et)) 
+        {
             struct solarhouse_sensor_data data = read_sensors();
             // TODO read sensors
+            
             //collect_send(&tc, NUM_RETRANSMITS);
+            
         }
 #endif
         printf("while");
@@ -98,14 +119,21 @@ PROCESS_THREAD(solarhouse_collect_process, ev, data){
     PROCESS_END();
 }
 /*---------------------------------------------------------------------------*/
-static struct solarhouse_sensor_data read_sensors(){
+static struct solarhouse_sensor_data read_sensors()
+{
     struct solarhouse_sensor_data data;
     memset(&data, 0, sizeof(struct solarhouse_sensor_data));
     
     data.battery = battery_sensor.value(0);
-    struct sensor_values values = sensorstation_read();
     
-    printf("CO2: %d Temperature: %d Humidity: %d\n", values.co2, values.temperature, values.humidity);
+    // Problem with compiling (UART error)
+    //struct sensor_values values = sensorstation_read();
+    
+    /*
+    printf("CO2: %d Temperature: %d Humidity: %d\n", 
+    	values.co2, values.temperature, values.humidity);
+    */
+    
     
     return data;
 }
