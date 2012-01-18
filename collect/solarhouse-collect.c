@@ -21,7 +21,7 @@
 #define SETTLE_TIMEOUT_SECONDS 120
 #define COLLECT_CHANNEL 130
 #define NUM_RETRANSMITS 15
-#define CC2420_TXPOWER 15
+#define CC2420_TXPOWER 31
 /*---------------------------------------------------------------------------*/
 PROCESS(solarhouse_collect_process, "Solarhouse Collect");
 AUTOSTART_PROCESSES(&solarhouse_collect_process);
@@ -61,9 +61,10 @@ PROCESS_THREAD(solarhouse_collect_process, ev, data){
 
     /* initialize sensors */
     SENSORS_ACTIVATE(battery_sensor);
+    sensorstation_init();
     /* ... */
 
-    collect_open(&tc, COLLECT_CHANNEL, COLLECT_ROUTER, &callbacks);
+    //collect_open(&tc, COLLECT_CHANNEL, COLLECT_ROUTER, &callbacks);
 
 #ifdef SINK
     printf("i'am sink\n");
@@ -88,9 +89,10 @@ PROCESS_THREAD(solarhouse_collect_process, ev, data){
         if(etimer_expired(&et)) {
             struct solarhouse_sensor_data data = read_sensors();
             // TODO read sensors
-            collect_send(&tc, NUM_RETRANSMITS);
+            //collect_send(&tc, NUM_RETRANSMITS);
         }
 #endif
+        printf("while");
     }
     
     PROCESS_END();
@@ -101,6 +103,9 @@ static struct solarhouse_sensor_data read_sensors(){
     memset(&data, 0, sizeof(struct solarhouse_sensor_data));
     
     data.battery = battery_sensor.value(0);
+    struct sensor_values values = sensorstation_read();
+    
+    printf("CO2: %d Temperature: %d Humidity: %d\n", values.co2, values.temperature, values.humidity);
     
     return data;
 }
