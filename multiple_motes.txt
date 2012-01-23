@@ -1,0 +1,4 @@
+für verschiedene motes:
+auflisten:		make z1-motelist
+ansprechen		make your-command MOTE=x
+x = [1...n]

@@ -16,8 +16,8 @@
 #include <string.h>
 /*---------------------------------------------------------------------------*/
 #define SINK 1
-#define SEND_INTERVAL_SECONDS 5		// standard: 30
-#define SETTLE_TIMEOUT_SECONDS 5		// standard: 120
+#define SEND_INTERVAL_SECONDS 60		// standard: 30
+#define SETTLE_TIMEOUT_SECONDS 120		// standard: 120
 #define COLLECT_CHANNEL 130				// standard: 130
 #define NUM_RETRANSMITS 15				// standard: 15
 // we use maximum transmission power to compare it with the final implementation
@@ -42,10 +42,9 @@ static struct solarhouse_sensor_data read_sensors();
 /*---------------------------------------------------------------------------*/
 static void recv(const rimeaddr_t *originator, uint8_t seqno, uint8_t hops)
 {
-#ifdef SINK
-	if(originator->u8[0] == rimeaddr_node_addr.u8[0]) return;
 	//data is already on the mote, copying of the data is not necessary
 	struct solarhouse_sensor_data *data = packetbuf_dataptr();
+
 
 	printf("from %d.%d, co2: %d temp: %d humidity: %d temp(z1): %d humidity(z1): %d battery: %d\r\n", 
 		originator->u8[0], originator->u8[1],
@@ -55,7 +54,6 @@ static void recv(const rimeaddr_t *originator, uint8_t seqno, uint8_t hops)
 		data->temp_z1, 
 		data->humidity_z1,
 		data->battery);
-#endif
 }
 /*---------------------------------------------------------------------------*/
 static const struct collect_callbacks callbacks = { recv };
@@ -77,9 +75,11 @@ PROCESS_THREAD(solarhouse_collect_process, ev, data)
     collect_open(&tc, COLLECT_CHANNEL, COLLECT_ROUTER, &callbacks);
 
 #ifdef SINK
-    printf("i'am sink\n");
+    printf("i'am sink, addr: %d\n", rimeaddr_node_addr.u8[0]);
     collect_set_sink(&tc, 1);
 #endif
+
+	printf("Settle timout seconds: %d, Send intervall seconds: %d \r\n", SETTLE_TIMEOUT_SECONDS, SEND_INTERVAL_SECONDS);
  
     /* Allow some time for the network to settle. */
     etimer_set(&et, SETTLE_TIMEOUT_SECONDS * CLOCK_SECOND);
@@ -96,7 +96,7 @@ PROCESS_THREAD(solarhouse_collect_process, ev, data)
 
         PROCESS_WAIT_EVENT();
 
-#ifndef SINK
+
         // send sensor data, build tree
         if(etimer_expired(&et))
         {
@@ -107,31 +107,9 @@ PROCESS_THREAD(solarhouse_collect_process, ev, data)
 				packetbuf_copyfrom(&data, sizeof(struct solarhouse_sensor_data));
 		        collect_send(&tc, NUM_RETRANSMITS);
 
-			/*#ifdef SINK
-				packetbuf_clear();
-				packetbuf_set_datalen(sprintf(packetbuf_dataptr(),
-							  "%s", "Hello") + 1);
-				collect_send(&tc, 15);
-			#endif*/
 
-			//build tree
-			static rimeaddr_t oldparent;
-			const rimeaddr_t *parent;
-			parent = collect_parent(&tc);
-			if(!rimeaddr_cmp(parent, &oldparent)) {
-			//alten parent ausgeben (falls der nicht null war)
-			if(!rimeaddr_cmp(&oldparent, &rimeaddr_null)) {
-				  printf("#L %d 0\n", oldparent.u8[0]);
-			}
-			//neuen parent ausgeben (falls der nicht null ist)
-			if(!rimeaddr_cmp(parent, &rimeaddr_null)) {
-				  printf("#L %d 1\n", parent->u8[0]);
-			}
-			//speichern
-				rimeaddr_copy(&oldparent, parent);
-			}
         }
-#endif
+
     }
     
     PROCESS_END();
