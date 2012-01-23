@@ -116,15 +116,15 @@ static struct solarhouse_sensor_data read_sensors()
 	memset(&data, 0, sizeof(struct solarhouse_sensor_data));
 	
 	// get data from sensor stations
-	struct sensor_values station_results = sensorstation_read();
-	data.co2_station = station_results.co2;
-	data.temp_station = station_results.temperature;
-	data.humidity_station = station_results.humidity;
+	struct sensor_values station_results = 	sensorstation_read();
+	data.co2_station = 			station_results.co2;
+	data.temp_station = 		station_results.temperature;
+	data.humidity_station = 	station_results.humidity;
 	
 	// get data from z1 sensors
-	data.temp_z1 = tmp102_read_temp_simple();
-	data.humidity_z1 = humidity_sensor.value(0);
-	data.battery = battery_sensor.value(0);
+	data.temp_z1 = 			tmp102_read_temp_simple();
+	data.humidity_z1 = 		humidity_sensor.value(0);
+	data.battery = 			battery_sensor.value(0);
     
 	return data;
 }
