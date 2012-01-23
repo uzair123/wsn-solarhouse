@@ -1,0 +1,3 @@
+sensorstation.c includes uart0.h instead of originally uart1.c
+
+-> now the function calls are renamed!
