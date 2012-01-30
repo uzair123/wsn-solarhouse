@@ -1,7 +1,6 @@
 #include "contiki.h"
 #include "lib/random.h"
 
-//#include "net/rime.h"
 #include "net/rime/collect.h"
 
 #include "dev/battery-sensor.h"
@@ -15,18 +14,12 @@
 #include <stdlib.h>
 #include <string.h>
 /*---------------------------------------------------------------------------*/
-#define SINK 1
-#define SEND_INTERVAL_SECONDS 5		// standard: 60
-#define SETTLE_TIMEOUT_SECONDS 5		// standard: 120
-#define COLLECT_CHANNEL 130				// standard: 130
-#define NUM_RETRANSMITS 15				// standard: 15
-// we use maximum transmission power to compare it with the final implementation
-#define CC2420_TXPOWER 31
-/*---------------------------------------------------------------------------*/
-PROCESS(solarhouse_collect_process, "Solarhouse Collect");
-AUTOSTART_PROCESSES(&solarhouse_collect_process);
-/*---------------------------------------------------------------------------*/
-static struct collect_conn tc;
+//#define SINK 1
+#define SEND_INTERVAL_SECONDS 60		// standard: 60
+#define SETTLE_TIMEOUT_SECONDS 120		// standard: 120
+#define COLLECT_CHANNEL 130			// standard: 130
+#define NUM_RETRANSMITS 15			// standard: 15
+#define CC2420_TXPOWER 31			// standard: Maximum = 31
 /*---------------------------------------------------------------------------*/
 struct solarhouse_sensor_data
 {
@@ -39,6 +32,10 @@ struct solarhouse_sensor_data
 };
 /*---------------------------------------------------------------------------*/
 static struct solarhouse_sensor_data read_sensors();
+static struct collect_conn tc;
+/*---------------------------------------------------------------------------*/
+PROCESS(solarhouse_collect_process, "Solarhouse Collect");
+AUTOSTART_PROCESSES(&solarhouse_collect_process);
 /*---------------------------------------------------------------------------*/
 static void recv(const rimeaddr_t *originator, uint8_t seqno, uint8_t hops)
 {
@@ -88,11 +85,11 @@ PROCESS_THREAD(solarhouse_collect_process, ev, data)
 
     while(1) 
     {
-        /* Send a packet every SEND_INTERVAL_SECONDS seconds. */
+        /* Send a packet every SEND_INTERVAL_SECONDS + rand(0, SEND_INTERVAL_SECONDS-1) seconds. */
         if(etimer_expired(&periodic)) 
         {
             etimer_set(&periodic, CLOCK_SECOND * SEND_INTERVAL_SECONDS);
-            etimer_set(&et, random_rand() % (CLOCK_SECOND * SEND_INTERVAL_SECONDS)); //et range: [0, SEND_INTERVAL_SECONDS-1] -> always faster than periodic
+            etimer_set(&et, random_rand() % (CLOCK_SECOND * SEND_INTERVAL_SECONDS)); //always faster than the periodic timer
         }
 
         PROCESS_WAIT_EVENT();
@@ -101,28 +98,41 @@ PROCESS_THREAD(solarhouse_collect_process, ev, data)
         if(etimer_expired(&et))
         {
 		#ifndef SINK	//read sensors & SEND
-	        struct solarhouse_sensor_data data = read_sensors();
-		packetbuf_clear();
-		packetbuf_copyfrom(&data, sizeof(struct solarhouse_sensor_data));
-	        collect_send(&tc, NUM_RETRANSMITS);
+			struct solarhouse_sensor_data data = read_sensors();
+			packetbuf_clear();
+			packetbuf_copyfrom(&data, sizeof(struct solarhouse_sensor_data));
+			collect_send(&tc, NUM_RETRANSMITS);
 
-		//print Tree
-		static rimeaddr_t oldparent;
-		const rimeaddr_t *parent;
-		parent = collect_parent(&tc);
-		//if parent changed
-		if(!rimeaddr_cmp(parent, &oldparent)) {
-			//alten parent ausgeben (falls der nicht null war)
-			if(!rimeaddr_cmp(&oldparent, &rimeaddr_null)) {
-			  printf("#L %d is old parent\r\n", oldparent.u8[0]);
+			//print Tree
+			static rimeaddr_t oldparent;
+			const rimeaddr_t *parent;
+			parent = collect_parent(&tc);
+			//if parent changed
+			if(!rimeaddr_cmp(parent, &oldparent)) {
+				//alten parent ausgeben (falls der nicht null war)
+				if(!rimeaddr_cmp(&oldparent, &rimeaddr_null)) {
+				  printf("#L %d is old parent\r\n", oldparent.u8[0]);
+				}
+				//neuen parent ausgeben (falls der nicht null ist)
+				if(!rimeaddr_cmp(parent, &rimeaddr_null)) {
+				  printf("#L %d is new parent\r\n", parent->u8[0]);
+				}
+				//speichern
+				rimeaddr_copy(&oldparent, parent);
 			}
-			//neuen parent ausgeben (falls der nicht null ist)
-			if(!rimeaddr_cmp(parent, &rimeaddr_null)) {
-			  printf("#L %d is new parent\r\n", parent->u8[0]);
-			}
-			//speichern
-			rimeaddr_copy(&oldparent, parent);
-		}
+		#endif
+		#ifdef SINK
+			// read and print sensor values, without sending them
+			struct solarhouse_sensor_data data = read_sensors();
+			printf("time: %lu, from %d.%d, hops: %d, rssi: %d seqno %d, co2: %d temp: %d humidity: %d temp(z1): %d humidity(z1): %d battery(z1): %d\r\n", 
+					clock_seconds(),
+					rimeaddr_node_addr.u8[0], rimeaddr_node_addr.u8[1], 0, 0, 0,
+					data.co2_station,
+					data.temp_station,
+					data.humidity_station,
+					data.temp_z1, 
+					data.humidity_z1,
+					data.battery);
 		#endif
         }
 
