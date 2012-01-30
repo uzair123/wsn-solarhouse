@@ -1,0 +1,5 @@
+replace the following files in the platforms dev folder:
+
+-	sensorstation.{c,h} (uses uart0.h functions instead of originally uart1.c)
+-	humidity-sensor.{c, h} (includes z1-sensors.h instead of sky-sensors.h)
+-	battery-sensor.c (includes z1-sensors.h instead of sky-sensors.h)
