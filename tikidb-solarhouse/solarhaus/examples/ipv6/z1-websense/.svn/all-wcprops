@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/z1-websense
+END
+project-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/z1-websense/project-conf.h
+END
+Makefile.target
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/z1-websense/Makefile.target
+END
+example-z1-websense.csc
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/z1-websense/example-z1-websense.csc
+END
+z1-websense.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/z1-websense/z1-websense.c
+END
+websense-remote.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/z1-websense/websense-remote.c
+END
+wget.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/z1-websense/wget.c
+END
+wget.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/z1-websense/wget.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/z1-websense/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/z1-websense/README
+END

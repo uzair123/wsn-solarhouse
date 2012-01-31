@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/c64
+END
+contiki-main.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/c64/contiki-main.c
+END
+Makefile.c64
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/c64/Makefile.c64
+END
+contiki-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/c64/contiki-conf.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/c64/README
+END

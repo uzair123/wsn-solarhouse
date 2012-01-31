@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430
+END
+node-id.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/node-id.c
+END
+cfs-coffee-arch.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/cfs-coffee-arch.h
+END
+init-net-uip.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/init-net-uip.c
+END
+Makefile.msb430
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/Makefile.msb430
+END
+node-id.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/node-id.h
+END
+symbols.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/symbols.c
+END
+contiki-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/contiki-conf.h
+END
+contiki-msb430-main.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/contiki-msb430-main.c
+END
+msb430-slip-arch.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/msb430-slip-arch.c
+END
+cfs-coffee-arch.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/cfs-coffee-arch.c
+END
+contiki-msb430.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/contiki-msb430.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/Makefile
+END
+symbols.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/symbols.h
+END

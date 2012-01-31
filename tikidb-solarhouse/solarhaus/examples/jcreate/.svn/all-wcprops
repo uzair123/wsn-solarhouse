@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/jcreate
+END
+example-ext-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/jcreate/example-ext-sensor.c
+END
+Makefile.target
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/jcreate/Makefile.target
+END
+jcreate-shell.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/jcreate/jcreate-shell.c
+END
+announce-blink.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/jcreate/announce-blink.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/jcreate/Makefile
+END

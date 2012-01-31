@@ -1,0 +1,6 @@
+TODOs
+- When aggregating with group by rows are added multiple times (= number of selected attributes)
+    where: querymanager.c: method querymanager_get_aggregation, in the "while (i < qo->the_query->num_selects)" loop.
+    added by: aherzog on 2010-09-24
+    
+  

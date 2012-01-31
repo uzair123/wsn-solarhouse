@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky
+END
+node-id.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/node-id.c
+END
+cfs-coffee-arch.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/cfs-coffee-arch.h
+END
+Makefile.sky
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/Makefile.sky
+END
+checkpoint-arch.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/checkpoint-arch.c
+END
+Makefile.common
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/Makefile.common
+END
+node-id.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/node-id.h
+END
+contiki-sky-main.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/contiki-sky-main.c
+END
+contiki-sky-platform.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/contiki-sky-platform.c
+END
+contiki-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/contiki-conf.h
+END
+platform-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/platform-conf.h
+END

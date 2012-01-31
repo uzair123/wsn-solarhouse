@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/dhcp
+END
+dhcp.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/dhcp/dhcp.c
+END
+dhcp.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/dhcp/dhcp.h
+END
+dhcp-dsc.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/dhcp/dhcp-dsc.c
+END
+Makefile.dhcp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/dhcp/Makefile.dhcp
+END
+dhcp-dsc.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/dhcp/dhcp-dsc.h
+END

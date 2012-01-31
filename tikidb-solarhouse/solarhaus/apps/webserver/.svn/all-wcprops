@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver
+END
+httpd-fs.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver/httpd-fs.h
+END
+Makefile.webserver
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver/Makefile.webserver
+END
+httpd-cfs.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver/httpd-cfs.h
+END
+webserver.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver/webserver.c
+END
+http-strings.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver/http-strings.c
+END
+webserver.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver/webserver.h
+END
+http-strings.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver/http-strings.h
+END
+webserver-dsc.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver/webserver-dsc.c
+END
+webserver-dsc.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver/webserver-dsc.h
+END
+httpd.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver/httpd.c
+END
+httpd-fsdata.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver/httpd-fsdata.c
+END
+httpd-cgi.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver/httpd-cgi.c
+END
+webserver-nogui.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver/webserver-nogui.c
+END
+http-strings
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver/http-strings
+END
+httpd.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver/httpd.h
+END
+urlconv.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver/urlconv.c
+END
+httpd-fsdata.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver/httpd-fsdata.h
+END
+httpd-cgi.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver/httpd-cgi.h
+END
+webserver-nogui.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver/webserver-nogui.h
+END
+httpd-fs.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver/httpd-fs.c
+END
+httpd-cfs.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver/httpd-cfs.c
+END
+urlconv.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/webserver/urlconv.h
+END

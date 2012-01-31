@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sentilla-usb
+END
+contiki-sentilla-usb-platform.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sentilla-usb/contiki-sentilla-usb-platform.c
+END
+leds-arch.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sentilla-usb/leds-arch.c
+END
+Makefile.sentilla-usb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sentilla-usb/Makefile.sentilla-usb
+END

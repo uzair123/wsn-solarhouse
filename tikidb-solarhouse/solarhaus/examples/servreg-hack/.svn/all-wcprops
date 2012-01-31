@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/servreg-hack
+END
+example-servreg-client.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/servreg-hack/example-servreg-client.c
+END
+example-servreg-server.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/servreg-hack/example-servreg-server.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/servreg-hack/Makefile
+END

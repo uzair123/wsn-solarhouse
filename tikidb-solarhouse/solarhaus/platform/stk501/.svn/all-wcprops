@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/stk501
+END
+contiki-stk501-default-init-lowlevel.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/stk501/contiki-stk501-default-init-lowlevel.c
+END
+Makefile.stk501
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/stk501/Makefile.stk501
+END
+contiki-stk501-main.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/stk501/contiki-stk501-main.c
+END
+contiki-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/stk501/contiki-conf.h
+END
+contiki-stk501.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/stk501/contiki-stk501.h
+END
+loadable_prg.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/stk501/loadable_prg.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/stk501/Makefile
+END
+contiki-stk501-default-init-net.c
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/stk501/contiki-stk501-default-init-net.c
+END

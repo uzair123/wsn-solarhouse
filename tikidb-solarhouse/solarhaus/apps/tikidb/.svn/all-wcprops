@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/20865/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb
+END
+tikidb-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19327/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb/tikidb-conf.h
+END
+Makefile.tikidb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19327/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb/Makefile.tikidb
+END
+TODO.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/19327/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb/TODO.txt
+END
+tikidb.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/19327/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb/tikidb.c
+END
+debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/19327/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb/debug.h
+END
+tikidb.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/19367/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb/tikidb.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/19327/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb/Makefile
+END

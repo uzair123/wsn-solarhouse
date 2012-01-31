@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/tools/rimecollect-rrd
+END
+default.rrdtmpl
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/tools/rimecollect-rrd/default.rrdtmpl
+END
+collect2rrd.pl
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/tools/rimecollect-rrd/collect2rrd.pl
+END
+meshstat.cgi
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/tools/rimecollect-rrd/meshstat.cgi
+END

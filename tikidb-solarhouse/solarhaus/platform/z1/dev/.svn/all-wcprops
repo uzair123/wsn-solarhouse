@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19877/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev
+END
+i2cmaster.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/i2cmaster.h
+END
+humidity-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19877/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/humidity-sensor.c
+END
+radio-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/radio-sensor.c
+END
+light.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/light.c
+END
+cc2420-arch.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/cc2420-arch.c
+END
+co-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19334/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/co-sensor.c
+END
+humidity-sensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19334/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/humidity-sensor.h
+END
+sensorstation.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19334/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/sensorstation.c
+END
+light.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/light.h
+END
+co-sensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19334/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/co-sensor.h
+END
+light-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/light-sensor.c
+END
+sht11-arch.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/sht11-arch.h
+END
+sensorstation.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19334/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/sensorstation.h
+END
+battery-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/battery-sensor.c
+END
+button-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/button-sensor.c
+END
+light-sensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/light-sensor.h
+END
+z1-sensors.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/19334/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/z1-sensors.c
+END
+adxl345.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/adxl345.c
+END
+z1-sensors.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/19334/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/z1-sensors.h
+END
+adxl345.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/adxl345.h
+END
+z1-phidgets.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/z1-phidgets.c
+END
+sky-sensors.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/sky-sensors.c
+END
+z1-phidgets.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/z1-phidgets.h
+END
+temperature-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/temperature-sensor.c
+END
+sky-sensors.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/sky-sensors.h
+END
+potentiometer-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/potentiometer-sensor.c
+END
+xmem.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/xmem.c
+END
+temperature-sensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/temperature-sensor.h
+END
+potentiometer-sensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/potentiometer-sensor.h
+END
+tmp102.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19375/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/tmp102.c
+END
+tmp102.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/tmp102.h
+END
+i2cmaster.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19332/projects/WSN/TikiDB/branches/solarhaus/platform/z1/dev/i2cmaster.c
+END

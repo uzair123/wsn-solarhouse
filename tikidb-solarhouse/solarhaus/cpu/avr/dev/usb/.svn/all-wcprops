@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb
+END
+compiler.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/compiler.h
+END
+usb_descriptors.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/usb_descriptors.h
+END
+usb_task.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/usb_task.h
+END
+usb_standard_request.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/usb_standard_request.c
+END
+conf_usb.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/conf_usb.h
+END
+usb_drv.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/usb_drv.c
+END
+usb_specific_request.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/usb_specific_request.c
+END
+usb_standard_request.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/usb_standard_request.h
+END
+pll_drv.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/pll_drv.h
+END
+usb_drv.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/usb_drv.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/config.h
+END
+usb_descriptors.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/usb_descriptors.c
+END
+usb_task.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/usb_task.c
+END
+usb_specific_request.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/usb_specific_request.h
+END

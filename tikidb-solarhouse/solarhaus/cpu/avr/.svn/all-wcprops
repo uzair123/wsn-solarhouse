@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr
+END
+bootloader.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/bootloader.h
+END
+settings.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/settings.c
+END
+watchdog.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/watchdog.c
+END
+leds-arch.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/leds-arch.c
+END
+minileds.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/minileds.c
+END
+settings.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/settings.h
+END
+cc2420_spi.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/cc2420_spi.c
+END
+avrdef.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/avrdef.h
+END
+rtimer-arch.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/rtimer-arch.c
+END
+mtarch.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/mtarch.c
+END
+rtimer-arch.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/rtimer-arch.h
+END
+mtarch.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/mtarch.h
+END
+Makefile.avr
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/Makefile.avr
+END
+slip_uart1.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/slip_uart1.c
+END
+avr.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/avr.c
+END
+bootloader.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/bootloader.c
+END
+spi.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/spi.c
+END

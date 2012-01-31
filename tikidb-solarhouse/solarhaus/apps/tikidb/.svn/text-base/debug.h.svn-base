@@ -1,0 +1,7 @@
+//#define DEBUG_DB
+//#define DEBUG_DBMS
+//#define DEBUG_SETTINGS
+//#define DEBUG_QUERYRESOLVER
+//#define DEBUG_QUERYMANAGER
+//#define DEBUG_QUERYMANAGER_TABLES
+

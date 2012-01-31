@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/examples/project_new_interface
+END
+cooja.config
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/examples/project_new_interface/cooja.config
+END
+dummy_intf.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/examples/project_new_interface/dummy_intf.h
+END
+dummy_intf.c
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/examples/project_new_interface/dummy_intf.c
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/examples/project_new_interface/build.xml
+END

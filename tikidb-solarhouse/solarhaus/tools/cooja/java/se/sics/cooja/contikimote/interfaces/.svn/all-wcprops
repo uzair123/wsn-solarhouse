@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/contikimote/interfaces
+END
+ContikiIPAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/contikimote/interfaces/ContikiIPAddress.java
+END
+ContikiRadio.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/contikimote/interfaces/ContikiRadio.java
+END
+ContikiVib.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/contikimote/interfaces/ContikiVib.java
+END
+ContikiMoteID.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/contikimote/interfaces/ContikiMoteID.java
+END
+ContikiBeeper.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/contikimote/interfaces/ContikiBeeper.java
+END
+ContikiLED.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/contikimote/interfaces/ContikiLED.java
+END
+ContikiPIR.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/contikimote/interfaces/ContikiPIR.java
+END
+ContikiButton.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/contikimote/interfaces/ContikiButton.java
+END
+ContikiCFS.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/contikimote/interfaces/ContikiCFS.java
+END
+ContikiClock.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/contikimote/interfaces/ContikiClock.java
+END
+ContikiRS232.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/contikimote/interfaces/ContikiRS232.java
+END

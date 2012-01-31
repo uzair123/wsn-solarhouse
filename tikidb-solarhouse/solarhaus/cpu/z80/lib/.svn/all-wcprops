@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/z80/lib
+END
+libconio_z80.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/z80/lib/libconio_z80.c
+END
+libconio_z80.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/z80/lib/libconio_z80.h
+END
+strcasecmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/z80/lib/strcasecmp.c
+END
+log-conio.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/z80/lib/log-conio.c
+END
+strcasecmp.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/z80/lib/strcasecmp.h
+END

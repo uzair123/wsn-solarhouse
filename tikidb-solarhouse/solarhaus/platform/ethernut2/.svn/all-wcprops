@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/ethernut2
+END
+ethernut-main.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/ethernut2/ethernut-main.c
+END
+contiki-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/ethernut2/contiki-conf.h
+END
+Makefile.ethernut2
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/ethernut2/Makefile.ethernut2
+END

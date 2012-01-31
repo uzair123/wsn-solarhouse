@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/collect-view
+END
+collect-view-sky.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/collect-view/collect-view-sky.c
+END
+collect-view.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/collect-view/collect-view.h
+END
+collect-view-sky.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/collect-view/collect-view-sky.h
+END
+collect-view-template.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/collect-view/collect-view-template.c
+END
+Makefile.collect-view
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/collect-view/Makefile.collect-view
+END
+collect-view.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/collect-view/collect-view.c
+END

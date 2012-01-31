@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/powertrace
+END
+parse-sniff-data
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/powertrace/parse-sniff-data
+END
+Makefile.powertrace
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/powertrace/Makefile.powertrace
+END
+parse-node-power
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/powertrace/parse-node-power
+END
+plot-power
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/powertrace/plot-power
+END
+parse-power-data
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/powertrace/parse-power-data
+END

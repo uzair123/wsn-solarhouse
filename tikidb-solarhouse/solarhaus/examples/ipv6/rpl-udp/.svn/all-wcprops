@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/rpl-udp
+END
+Makefile.target
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/rpl-udp/Makefile.target
+END
+udp-client.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/rpl-udp/udp-client.c
+END
+rpl-udp.csc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/rpl-udp/rpl-udp.csc
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/rpl-udp/Makefile
+END
+udp-server.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/rpl-udp/udp-server.c
+END

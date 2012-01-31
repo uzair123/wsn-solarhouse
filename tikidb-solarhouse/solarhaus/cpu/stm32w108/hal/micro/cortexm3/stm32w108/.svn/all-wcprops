@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/stm32w108
+END
+stm32w108_type.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/stm32w108/stm32w108_type.h
+END
+crt_stm32w108.c
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/stm32w108/crt_stm32w108.c
+END
+memmap.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/stm32w108/memmap.h
+END
+regs.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/stm32w108/regs.h
+END
+gnu.ld
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/stm32w108/gnu.ld
+END
+iar-cfg.icf
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/stm32w108/iar-cfg.icf
+END
+low_level_init.c
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/stm32w108/low_level_init.c
+END
+regs.ddf
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/stm32w108/regs.ddf
+END
+board.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/stm32w108/board.h
+END
+iar-cfg-coffee.icf
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/stm32w108/iar-cfg-coffee.icf
+END

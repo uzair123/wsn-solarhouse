@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/gui
+END
+TimeChartPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/gui/TimeChartPanel.java
+END
+NodeInfoPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/gui/NodeInfoPanel.java
+END
+SerialConsole.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/gui/SerialConsole.java
+END
+BarChartPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/gui/BarChartPanel.java
+END
+NodeControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/gui/NodeControl.java
+END
+AggregatedTimeChartPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/gui/AggregatedTimeChartPanel.java
+END
+MapPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/gui/MapPanel.java
+END

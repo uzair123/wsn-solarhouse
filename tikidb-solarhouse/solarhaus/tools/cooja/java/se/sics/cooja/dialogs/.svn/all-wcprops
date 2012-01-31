@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/dialogs
+END
+ImportAppMoteDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/dialogs/ImportAppMoteDialog.java
+END
+MessageList.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/dialogs/MessageList.java
+END
+ExternalToolsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/dialogs/ExternalToolsDialog.java
+END
+ProjectDirectoriesDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/dialogs/ProjectDirectoriesDialog.java
+END
+UpdateAggregator.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/dialogs/UpdateAggregator.java
+END
+TableColumnAdjuster.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/dialogs/TableColumnAdjuster.java
+END
+ConfigurationWizard.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/dialogs/ConfigurationWizard.java
+END
+CompileContiki.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/dialogs/CompileContiki.java
+END
+BufferSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/dialogs/BufferSettings.java
+END
+AbstractCompileDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/dialogs/AbstractCompileDialog.java
+END
+CreateSimDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/dialogs/CreateSimDialog.java
+END
+AddMoteDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/dialogs/AddMoteDialog.java
+END
+SerialUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/dialogs/SerialUI.java
+END
+ContikiMoteCompileDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/dialogs/ContikiMoteCompileDialog.java
+END

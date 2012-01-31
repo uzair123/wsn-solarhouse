@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/sensinode/nano_programmer
+END
+programmer.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/sensinode/nano_programmer/programmer.h
+END
+ihex.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/sensinode/nano_programmer/ihex.h
+END
+nano_programmer
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/sensinode/nano_programmer/nano_programmer
+END
+cdi_program.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/sensinode/nano_programmer/cdi_program.c
+END
+port.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/sensinode/nano_programmer/port.h
+END
+programmer.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/sensinode/nano_programmer/programmer.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/sensinode/nano_programmer/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/sensinode/nano_programmer/README
+END
+ihex.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/sensinode/nano_programmer/ihex.c
+END

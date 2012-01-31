@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/sky-ip
+END
+Makefile.target
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/sky-ip/Makefile.target
+END
+telnet-tweet.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/sky-ip/telnet-tweet.c
+END
+ajax-cgi.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/sky-ip/ajax-cgi.c
+END
+httpd-fsdata.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/sky-ip/httpd-fsdata.c
+END
+sky-telnet-server.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/sky-ip/sky-telnet-server.c
+END
+sensors-script.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/sky-ip/sensors-script.js
+END
+sky-webserver.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/sky-ip/sky-webserver.c
+END
+httpd-fs.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/sky-ip/httpd-fs.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/sky-ip/Makefile
+END
+telnet-webserver.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/sky-ip/telnet-webserver.c
+END

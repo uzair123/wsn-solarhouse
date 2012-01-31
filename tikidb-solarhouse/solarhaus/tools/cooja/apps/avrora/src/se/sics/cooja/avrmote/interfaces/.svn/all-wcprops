@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/apps/avrora/src/se/sics/cooja/avrmote/interfaces
+END
+MicaZID.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/apps/avrora/src/se/sics/cooja/avrmote/interfaces/MicaZID.java
+END
+MicaZRadio.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/apps/avrora/src/se/sics/cooja/avrmote/interfaces/MicaZRadio.java
+END
+MicaClock.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/apps/avrora/src/se/sics/cooja/avrmote/interfaces/MicaClock.java
+END
+MicaZLED.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/apps/avrora/src/se/sics/cooja/avrmote/interfaces/MicaZLED.java
+END
+MicaSerial.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/apps/avrora/src/se/sics/cooja/avrmote/interfaces/MicaSerial.java
+END

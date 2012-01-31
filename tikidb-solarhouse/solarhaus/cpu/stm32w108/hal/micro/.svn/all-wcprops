@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro
+END
+button.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/button.h
+END
+micro-common.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/micro-common.h
+END
+mems.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/mems.h
+END
+mems_regs.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/mems_regs.h
+END
+system-timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/system-timer.h
+END
+led.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/led.h
+END
+temperature_sensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/temperature_sensor.h
+END
+adc.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/adc.h
+END

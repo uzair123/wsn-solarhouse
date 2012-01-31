@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/pc-6001/dev
+END
+rtimer-arch.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/pc-6001/dev/rtimer-arch.h
+END
+isprint_arch.S
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/pc-6001/dev/isprint_arch.S
+END
+getkey.S
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/pc-6001/dev/getkey.S
+END
+rs232-asm.S
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/pc-6001/dev/rs232-asm.S
+END
+isprint_arch.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/pc-6001/dev/isprint_arch.h
+END
+clock.S
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/pc-6001/dev/clock.S
+END
+getkey.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/pc-6001/dev/getkey.h
+END

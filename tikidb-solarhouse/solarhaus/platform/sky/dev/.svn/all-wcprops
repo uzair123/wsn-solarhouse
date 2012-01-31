@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/dev
+END
+sky-sensors.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/dev/sky-sensors.c
+END
+temperature-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/dev/temperature-sensor.c
+END
+sky-sensors.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/dev/sky-sensors.h
+END
+radio-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/dev/radio-sensor.c
+END
+xmem.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/dev/xmem.c
+END
+light.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/dev/light.c
+END
+temperature-sensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/dev/temperature-sensor.h
+END
+light.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/dev/light.h
+END
+i2c.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/dev/i2c.c
+END
+light-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/dev/light-sensor.c
+END
+sht11-arch.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/dev/sht11-arch.h
+END
+battery-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/dev/battery-sensor.c
+END
+i2c.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/dev/i2c.h
+END
+button-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/dev/button-sensor.c
+END
+light-sensor.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/sky/dev/light-sensor.h
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/serial-shell
+END
+Makefile.serial-shell
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/serial-shell/Makefile.serial-shell
+END
+serial-shell.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/serial-shell/serial-shell.c
+END
+serial-shell.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/serial-shell/serial-shell.h
+END

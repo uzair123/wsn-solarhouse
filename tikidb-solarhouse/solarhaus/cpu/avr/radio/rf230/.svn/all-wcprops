@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/radio/rf230
+END
+radio.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/radio/rf230/radio.c
+END
+frame.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/radio/rf230/frame.h
+END
+radio.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/radio/rf230/radio.h
+END
+hal.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/radio/rf230/hal.c
+END
+at86rf230_registermap.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/radio/rf230/at86rf230_registermap.h
+END
+Makefile.rf230
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/radio/rf230/Makefile.rf230
+END
+hal.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/radio/rf230/hal.h
+END
+frame.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/radio/rf230/frame.c
+END

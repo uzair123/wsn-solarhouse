@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/z1/rssi_scanner
+END
+project-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/z1/rssi_scanner/project-conf.h
+END
+ViewRSSI3D.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/z1/rssi_scanner/ViewRSSI3D.java
+END
+rssi-scanner.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/z1/rssi_scanner/rssi-scanner.c
+END
+ViewRSSI.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/z1/rssi_scanner/ViewRSSI.java
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/z1/rssi_scanner/Makefile
+END

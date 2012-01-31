@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/dev
+END
+infomem.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/dev/infomem.h
+END
+dma.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/dev/dma.c
+END
+msb430-uart1.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/dev/msb430-uart1.c
+END
+dma.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/dev/dma.h
+END
+sd.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/dev/sd.c
+END
+msb430-uart1.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/dev/msb430-uart1.h
+END
+cc1020-internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/dev/cc1020-internal.h
+END
+rs232.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/dev/rs232.c
+END
+sd.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/dev/sd.h
+END
+rs232.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/dev/rs232.h
+END
+sht11-arch.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/dev/sht11-arch.h
+END
+sd-arch.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/dev/sd-arch.c
+END
+cc1020-uip.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/dev/cc1020-uip.c
+END
+sd-arch.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/dev/sd-arch.h
+END
+adc.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/dev/adc.c
+END
+cc1020.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/dev/cc1020.c
+END
+cc1020-uip.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/dev/cc1020-uip.h
+END
+infomem.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/dev/infomem.c
+END
+adc.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/dev/adc.h
+END
+cc1020.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/dev/cc1020.h
+END

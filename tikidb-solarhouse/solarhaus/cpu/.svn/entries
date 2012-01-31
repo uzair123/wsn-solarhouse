@@ -1,0 +1,58 @@
+10
+
+dir
+24515
+https://www.dvs.tu-darmstadt.de/svn/projects/WSN/TikiDB/branches/solarhaus/cpu
+https://www.dvs.tu-darmstadt.de/svn
+
+
+
+2011-03-27T10:18:39.238730Z
+19328
+dmeister
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1c42e48c-89fd-0310-83e7-9a3e9bf3cc98
+
+arm
+dir
+
+mc1322x
+dir
+
+z80
+dir
+
+x86
+dir
+
+msp430
+dir
+
+native
+dir
+
+avr
+dir
+
+stm32w108
+dir
+
+6502
+dir
+
+cc2430
+dir
+

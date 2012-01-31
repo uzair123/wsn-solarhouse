@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/compiler
+END
+gnu.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/compiler/gnu.h
+END
+iar.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/compiler/iar.h
+END
+asm.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/compiler/asm.h
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/board
+END
+freescale-ncb.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/board/freescale-ncb.h
+END
+Makefile.board
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/board/Makefile.board
+END
+redbee-usb.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/board/redbee-usb.h
+END
+std_conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/board/std_conf.h
+END
+redbee-dev.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/board/redbee-dev.h
+END
+redbee-econotag.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/board/redbee-econotag.h
+END
+quahogcon.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/board/quahogcon.h
+END
+redbee-r1.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/board/redbee-r1.h
+END

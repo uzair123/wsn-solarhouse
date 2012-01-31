@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/storage
+END
+avr_flash.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/storage/avr_flash.c
+END
+ctrl_access.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/storage/ctrl_access.c
+END
+scsi_decoder.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/storage/scsi_decoder.c
+END
+storage_task.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/storage/storage_task.c
+END
+avr_flash.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/storage/avr_flash.h
+END
+ctrl_access.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/storage/ctrl_access.h
+END
+conf_access.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/storage/conf_access.h
+END
+scsi_decoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/storage/scsi_decoder.h
+END
+storage_task.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/storage/storage_task.h
+END
+ctrl_status.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/usb/storage/ctrl_status.h
+END

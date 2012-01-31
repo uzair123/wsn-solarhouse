@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/esb/buildscripts/jtag/pyjtag
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/esb/buildscripts/jtag/pyjtag/license.txt
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/esb/buildscripts/jtag/pyjtag/setup.py
+END
+install-pyjtag.nsi
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/esb/buildscripts/jtag/pyjtag/install-pyjtag.nsi
+END
+gen-ihex.py
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/esb/buildscripts/jtag/pyjtag/gen-ihex.py
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/esb/buildscripts/jtag/pyjtag/readme.txt
+END
+jtag.py
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/esb/buildscripts/jtag/pyjtag/jtag.py
+END
+elf.py
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/esb/buildscripts/jtag/pyjtag/elf.py
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/esb/buildscripts/jtag/pyjtag/makefile
+END

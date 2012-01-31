@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src
+END
+small_mprec.c
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/small_mprec.c
+END
+vfieeefp.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/vfieeefp.h
+END
+local.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/local.h
+END
+_SP_vfprintf.c
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/_SP_vfprintf.c
+END
+small_vfsscanf.c
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/small_vfsscanf.c
+END
+test_printf.c
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/test_printf.c
+END
+floatio.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/floatio.h
+END
+small_mprec.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/small_mprec.h
+END
+_SP_printf.c
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/_SP_printf.c
+END
+_SP_snprintf.c
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/_SP_snprintf.c
+END
+small_wctomb_r.c
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/small_wctomb_r.c
+END
+small_wcrtomb.c
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/small_wcrtomb.c
+END
+small_strtod.c
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/small_strtod.c
+END
+swi.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/swi.h
+END
+mbctype.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/mbctype.h
+END
+small_wcsrtombs.c
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/small_wcsrtombs.c
+END
+sscanf.c
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/sscanf.c
+END
+small_dtoa.c
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/small_dtoa.c
+END
+test.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/test.c
+END
+test_mes.c
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/test_mes.c
+END
+_SP_sprintf.c
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/_SP_sprintf.c
+END
+test_scanf.c
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/test_scanf.c
+END
+scanf.c
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/scanf.c
+END
+fvwrite.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/fvwrite.h
+END
+_SP_puts.c
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/_SP_puts.c
+END
+syscalls.c
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/stm32w108/hal/micro/cortexm3/e_stdio/src/syscalls.c
+END

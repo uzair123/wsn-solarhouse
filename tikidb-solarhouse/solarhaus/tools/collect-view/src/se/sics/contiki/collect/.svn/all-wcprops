@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect
+END
+SerialConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/SerialConnection.java
+END
+MoteProgrammerProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/MoteProgrammerProcess.java
+END
+MoteProgrammer.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/MoteProgrammer.java
+END
+Configurable.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/Configurable.java
+END
+StdinConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/StdinConnection.java
+END
+SensorData.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/SensorData.java
+END
+SerialConnectionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/SerialConnectionListener.java
+END
+SensorDataAggregator.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/SensorDataAggregator.java
+END
+CollectServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/CollectServer.java
+END
+SerialDumpConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/SerialDumpConnection.java
+END
+SensorInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/SensorInfo.java
+END
+Node.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/Node.java
+END
+MoteFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/MoteFinder.java
+END
+Visualizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/Visualizer.java
+END
+Link.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/Link.java
+END
+CommandConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/collect-view/src/se/sics/contiki/collect/CommandConnection.java
+END

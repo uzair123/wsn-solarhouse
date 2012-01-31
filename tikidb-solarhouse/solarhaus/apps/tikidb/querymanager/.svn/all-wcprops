@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/20433/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb/querymanager
+END
+query-parser.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/20433/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb/querymanager/query-parser.c
+END
+querymanager.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/20430/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb/querymanager/querymanager.c
+END
+query-parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/20430/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb/querymanager/query-parser.h
+END
+querymanager.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/20346/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb/querymanager/querymanager.h
+END
+querymanager-qidlist.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/19327/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb/querymanager/querymanager-qidlist.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19327/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb/querymanager/Makefile
+END
+query-types.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/20433/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb/querymanager/query-types.h
+END
+querymanager-qidlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/19327/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb/querymanager/querymanager-qidlist.h
+END

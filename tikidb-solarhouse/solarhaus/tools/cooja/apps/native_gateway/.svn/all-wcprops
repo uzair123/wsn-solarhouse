@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/apps/native_gateway
+END
+cooja.config
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/apps/native_gateway/cooja.config
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/apps/native_gateway/build.xml
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/redbee-econotag
+END
+Makefile.redbee-econotag
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/redbee-econotag/Makefile.redbee-econotag
+END
+contiki-mc1322x-main.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/redbee-econotag/contiki-mc1322x-main.c
+END
+button-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/redbee-econotag/button-sensor.c
+END
+node-id.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/redbee-econotag/node-id.h
+END
+contiki-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/redbee-econotag/contiki-conf.h
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/buildscripts
+END
+Makefile.unix
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/buildscripts/Makefile.unix
+END
+Makefile.freebsd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/buildscripts/Makefile.freebsd
+END
+Makefile.win
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/msb430/buildscripts/Makefile.win
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/cdc-eth
+END
+dhcps.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/cdc-eth/dhcps.c
+END
+cdc-eth-descriptors.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/cdc-eth/cdc-eth-descriptors.c
+END
+dhcps.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/cdc-eth/dhcps.h
+END
+cdc-eth.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/cdc-eth/cdc-eth.c
+END
+cdc-eth-string-descriptors.c
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/cdc-eth/cdc-eth-string-descriptors.c
+END
+cdc-eth.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/cdc-eth/cdc-eth.h
+END

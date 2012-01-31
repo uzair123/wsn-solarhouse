@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body{
+	margin-top:20px;
+    font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:small;
+}
+
+#headline{
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: large;
+}
+
+
+
+
+
+/* Graph */
+
+#graphframe{
+	position:relative;
+	width:800px;
+	top: 40px;
+	margin:0 auto;
+	left:100px;
+	padding:5px;
+
+}
+
+#graph{
+position:absolute;
+width:600px;
+left:50px;
+}
+
+#ddmenu{
+	position:relative;
+	left:560px;
+	top:-80px;
+}
+
+/* Controller */
+
+#controller{
+	position:fixed;
+
+	border:thin;
+	border-style:solid;
+	border-color:#0000FF;
+	padding:5px;
+	left: 20px;
+	top: 200px;
+	width:150px;
+	//margin:0 auto;
+	text-align:center;
+}
+
+#controller .block{
+padding:5px;
+}
+
+#controller .block .element{
+//width:60px;
+text-align:center;
+}
+
+#controller .line{
+	border-bottom:thin; border-bottom-color:#0000CC; border-bottom-style:dotted;
+}
+
+/* nodes live table */
+
+#table_nodes_live_div{
+	position:relative;
+	width:800px;
+	top: 40px;
+	margin:0 auto;
+	left:100px;
+	
+	padding:5px;
+	border:thin;
+	border-color:#0000FF;
+	border-style:solid;
+	
+}
+
+#table_nodes_live_div td {text-align:center;}
+
+#table_nodes_live{
+	height:340px;
+	border-top:thin;
+	border-top-color:#990000;
+	border-top-style:dashed;
+	display:table-row-group;
+	overflow:scroll;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	overflow:-moz-scrollbars-vertical;
+}
+
+#table_nodes_config{
+	border-top:thin; border-top-color:#990000; border-top-style:dashed;
+	padding:5px;
+}
+
+/* nodes average */
+
+#table_nodes_average_div{
+	position:relative;
+	width:800px;
+	top: 70px;
+	margin:0 auto;
+	left:100px;
+	
+	padding:5px;
+	border:thin;
+	border-color:#0000FF;
+	border-style:solid;
+	
+}
+
+#table_nodes_average_div td {text-align:center;}
+
+#table_nodes_average{
+	border-top:thin;
+	border-top-color:#990000;
+	border-top-style:dashed;
+	overflow:auto;
+	}
+
+/* misc */
+
+.table_head_right{
+	border-right:thin; border-right-color:#009933; border-right-style:double;
+	font-weight:bold;
+}
+
+.table_right{
+	border-right:thin; border-right-color:#009933; border-right-style:double;
+}

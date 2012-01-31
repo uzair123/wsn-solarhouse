@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/SD-card
+END
+efs-sdcard.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/SD-card/efs-sdcard.h
+END
+sdcard.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/SD-card/sdcard.h
+END
+cfs-sdcard.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/SD-card/cfs-sdcard.c
+END
+efsl_spi.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/SD-card/efsl_spi.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/SD-card/config.h
+END
+Makefile.sdcard
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/SD-card/Makefile.sdcard
+END

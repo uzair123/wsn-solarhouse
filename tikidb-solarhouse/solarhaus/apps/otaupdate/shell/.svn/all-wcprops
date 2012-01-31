@@ -1,0 +1,545 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell
+END
+shell-base64.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-base64.h
+END
+shell-exec.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-exec.h
+END
+shell-rime-ping.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-rime-ping.h
+END
+shell-coffee.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-coffee.h
+END
+shell-checkpoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-checkpoint.h
+END
+shell-collect-view.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-collect-view.c
+END
+shell-rime-sniff.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-rime-sniff.c
+END
+shell-collect-view.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-collect-view.h
+END
+shell-udpsend.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-udpsend.c
+END
+shell-netperf.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-netperf.c
+END
+shell-rime-sniff.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-rime-sniff.h
+END
+shell-wget.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-wget.c
+END
+shell-rime-sendcmd.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-rime-sendcmd.c
+END
+shell-udpsend.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-udpsend.h
+END
+shell-netperf.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-netperf.h
+END
+shell-dsc.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-dsc.c
+END
+shell-powertrace.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-powertrace.c
+END
+shell-vars.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-vars.c
+END
+shell-wget.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-wget.h
+END
+shell-rime-sendcmd.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-rime-sendcmd.h
+END
+shell-dsc.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-dsc.h
+END
+shell-powertrace.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-powertrace.h
+END
+shell-vars.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-vars.h
+END
+shell-netstat.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-netstat.c
+END
+shell-memdebug.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-memdebug.c
+END
+shell-netstat.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-netstat.h
+END
+shell-tweet.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-tweet.c
+END
+shell-memdebug.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-memdebug.h
+END
+shell-rime.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-rime.c
+END
+shell-power.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-power.c
+END
+shell-tweet.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-tweet.h
+END
+shell-tcpsend.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-tcpsend.c
+END
+shell-power.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-power.h
+END
+shell-rime.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-rime.h
+END
+shell.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell.c
+END
+shell-run.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-run.c
+END
+shell-tcpsend.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-tcpsend.h
+END
+shell-sky.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-sky.c
+END
+shell.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell.h
+END
+shell-run.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-run.h
+END
+shell-sky.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-sky.h
+END
+shell-irc.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-irc.c
+END
+serial-shell.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/serial-shell.c
+END
+shell-file.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-file.c
+END
+shell-irc.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-irc.h
+END
+serial-shell.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/serial-shell.h
+END
+shell-file.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-file.h
+END
+shell-netfile.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-netfile.c
+END
+shell-sendtest.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-sendtest.c
+END
+shell-reboot.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-reboot.c
+END
+shell-netfile.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-netfile.h
+END
+shell-ping.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-ping.c
+END
+shell-sendtest.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-sendtest.h
+END
+shell-reboot.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-reboot.h
+END
+shell-blink.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-blink.c
+END
+shell-ping.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-ping.h
+END
+shell-blink.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-blink.h
+END
+shell-rime-debug-runicast.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-rime-debug-runicast.c
+END
+shell-rime-debug-runicast.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-rime-debug-runicast.h
+END
+shell-httpd.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-httpd.c
+END
+gui-shell.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/gui-shell.c
+END
+shell-text.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-text.c
+END
+shell-httpd.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-httpd.h
+END
+shell-text.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-text.h
+END
+shell-rsh.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-rsh.c
+END
+Makefile.shell
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/Makefile.shell
+END
+shell-time.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-time.c
+END
+shell-rime-unicast.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-rime-unicast.c
+END
+shell-profile.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-profile.c
+END
+shell-rsh.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-rsh.h
+END
+shell-time.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-time.h
+END
+shell-rime-netcmd.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-rime-netcmd.c
+END
+shell-rime-unicast.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-rime-unicast.h
+END
+shell-profile.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-profile.h
+END
+shell-download.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-download.c
+END
+shell-rime-netcmd.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-rime-netcmd.h
+END
+shell-rime-neighbors.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-rime-neighbors.c
+END
+shell-download.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-download.h
+END
+shell-rime-neighbors.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-rime-neighbors.h
+END
+shell-rime-debug.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-rime-debug.c
+END
+shell-ps.c
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-ps.c
+END
+shell-sensortweet.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-sensortweet.c
+END
+shell-base64.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-base64.c
+END
+shell-exec.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-exec.c
+END
+shell-rime-debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-rime-debug.h
+END
+shell-rime-ping.c
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-rime-ping.c
+END
+shell-ps.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-ps.h
+END
+shell-coffee.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-coffee.c
+END
+shell-checkpoint.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-checkpoint.c
+END
+shell-sensortweet.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/21260/projects/WSN/TikiDB/branches/solarhaus/apps/otaupdate/shell/shell-sensortweet.h
+END

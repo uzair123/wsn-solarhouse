@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/mb851/webserver-ajax
+END
+mb851-webserver.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/mb851/webserver-ajax/mb851-webserver.c
+END
+Makefile.target
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/mb851/webserver-ajax/Makefile.target
+END
+ajax-cgi.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/mb851/webserver-ajax/ajax-cgi.c
+END
+httpd-fsdata.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/mb851/webserver-ajax/httpd-fsdata.c
+END
+httpd-fs.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/mb851/webserver-ajax/httpd-fs.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/mb851/webserver-ajax/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/mb851/webserver-ajax/README
+END
+webserver-ajax-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/mb851/webserver-ajax/webserver-ajax-conf.h
+END

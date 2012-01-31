@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1sp
+END
+Makefile.z1sp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1sp/Makefile.z1sp
+END
+contiki-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1sp/contiki-conf.h
+END
+platform-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1sp/platform-conf.h
+END
+contiki-z1sp-platform.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/z1sp/contiki-z1sp-platform.c
+END

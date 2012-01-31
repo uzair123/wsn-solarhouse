@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/netconf
+END
+netconf-dsc.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/netconf/netconf-dsc.c
+END
+Makefile.netconf
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/netconf/Makefile.netconf
+END
+netconf-dsc.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/netconf/netconf-dsc.h
+END
+netconf.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/netconf/netconf.c
+END

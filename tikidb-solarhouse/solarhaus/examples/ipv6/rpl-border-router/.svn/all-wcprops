@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/rpl-border-router
+END
+project-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/rpl-border-router/project-conf.h
+END
+httpd-simple.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/rpl-border-router/httpd-simple.h
+END
+slip-bridge.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/rpl-border-router/slip-bridge.c
+END
+httpd-simple.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/rpl-border-router/httpd-simple.c
+END
+border-router.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/rpl-border-router/border-router.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/examples/ipv6/rpl-border-router/Makefile
+END

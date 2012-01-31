@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev
+END
+delay.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/delay.c
+END
+lanc111.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/lanc111.c
+END
+flash.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/flash.h
+END
+delay.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/delay.h
+END
+rs232_atmega128rfa1.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/rs232_atmega128rfa1.h
+END
+rs232_at90usb1287.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/rs232_at90usb1287.h
+END
+rs232_atmega1281.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/rs232_atmega1281.h
+END
+rs232.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/rs232.c
+END
+rtl8019-drv.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/rtl8019-drv.c
+END
+rs232_atmega1284.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/rs232_atmega1284.h
+END
+compiler.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/compiler.h
+END
+rs232.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/rs232.h
+END
+rtl8019-drv.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/rtl8019-drv.h
+END
+rtl8019dev.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/rtl8019dev.c
+END
+rtl8019.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/rtl8019.c
+END
+debug.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/debug.c
+END
+clock-avr.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/clock-avr.h
+END
+eeprom.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/eeprom.c
+END
+rtl8019dev.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/rtl8019dev.h
+END
+rtlregs.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/rtlregs.h
+END
+rtl8019.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/rtl8019.h
+END
+rs232_atmega128.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/rs232_atmega128.h
+END
+debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/debug.h
+END
+clock.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/clock.c
+END
+flash.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/avr/dev/flash.c
+END

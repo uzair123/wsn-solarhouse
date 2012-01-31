@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/src
+END
+Makefile.src
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/src/Makefile.src
+END
+default_lowlevel.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/src/default_lowlevel.h
+END
+default_lowlevel.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/src/default_lowlevel.c
+END
+isr.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/src/isr.c
+END
+start.S
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/src/start.S
+END

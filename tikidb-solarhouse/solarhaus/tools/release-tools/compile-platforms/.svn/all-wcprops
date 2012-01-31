@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/release-tools/compile-platforms
+END
+Makefile.platform
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/release-tools/compile-platforms/Makefile.platform
+END
+hello-world.c
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/release-tools/compile-platforms/hello-world.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/release-tools/compile-platforms/Makefile
+END

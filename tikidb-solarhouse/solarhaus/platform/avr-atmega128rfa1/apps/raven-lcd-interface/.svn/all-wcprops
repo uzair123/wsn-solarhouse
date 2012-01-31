@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/avr-atmega128rfa1/apps/raven-lcd-interface
+END
+Makefile.raven-lcd-interface
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/avr-atmega128rfa1/apps/raven-lcd-interface/Makefile.raven-lcd-interface
+END
+raven-lcd.c
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/avr-atmega128rfa1/apps/raven-lcd-interface/raven-lcd.c
+END

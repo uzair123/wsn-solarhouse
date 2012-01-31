@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/email
+END
+email-dsc.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/email/email-dsc.c
+END
+smtp-strings.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/email/smtp-strings.h
+END
+Makefile.email
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/email/Makefile.email
+END
+email-dsc.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/email/email-dsc.h
+END
+email.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/email/email.c
+END
+smtp.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/email/smtp.h
+END
+smtp-socket.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/email/smtp-socket.c
+END
+smtp-strings
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/email/smtp-strings
+END
+smtp-strings.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/email/smtp-strings.c
+END
+email.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/email/email.h
+END

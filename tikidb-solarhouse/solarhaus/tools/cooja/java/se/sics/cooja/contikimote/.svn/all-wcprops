@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/contikimote
+END
+ContikiProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/contikimote/ContikiProcess.java
+END
+ContikiMote.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/contikimote/ContikiMote.java
+END
+ContikiMoteInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/contikimote/ContikiMoteInterface.java
+END
+ContikiMoteType.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/contikimote/ContikiMoteType.java
+END

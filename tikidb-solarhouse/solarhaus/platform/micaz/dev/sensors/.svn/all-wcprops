@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/micaz/dev/sensors
+END
+battery-sensor.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/micaz/dev/sensors/battery-sensor.c
+END
+mts300.c
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/micaz/dev/sensors/mts300.c
+END
+mts300.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/micaz/dev/sensors/mts300.h
+END

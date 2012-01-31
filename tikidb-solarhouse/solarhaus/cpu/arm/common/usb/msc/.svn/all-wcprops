@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/msc
+END
+rbc_struct.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/msc/rbc_struct.h
+END
+spc2_struct.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/msc/spc2_struct.h
+END
+msc-descriptors.c
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/msc/msc-descriptors.c
+END
+rbc_const.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/msc/rbc_const.h
+END
+spc2_const.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/msc/spc2_const.h
+END
+msc-string-descriptors.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/msc/msc-string-descriptors.xml
+END
+scsi_sense.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/msc/scsi_sense.h
+END
+scsi_command.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/msc/scsi_command.h
+END
+usb-msc-bulk.c
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/msc/usb-msc-bulk.c
+END
+usb-msc-bulk.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/msc/usb-msc-bulk.h
+END
+scsi_struct.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/msc/scsi_struct.h
+END
+usb-rbc.c
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/msc/usb-rbc.c
+END

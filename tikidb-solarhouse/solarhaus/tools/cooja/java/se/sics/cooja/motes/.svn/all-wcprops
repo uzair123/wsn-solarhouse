@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/motes
+END
+ImportAppMoteType.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/motes/ImportAppMoteType.java
+END
+AbstractWakeupMote.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/motes/AbstractWakeupMote.java
+END
+AbstractEmulatedMote.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/motes/AbstractEmulatedMote.java
+END
+DisturberMoteType.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/motes/DisturberMoteType.java
+END
+AbstractApplicationMote.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/motes/AbstractApplicationMote.java
+END
+AbstractApplicationMoteType.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/motes/AbstractApplicationMoteType.java
+END

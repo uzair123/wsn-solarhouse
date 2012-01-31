@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/tools/test-grid
+END
+erase-all.pl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/tools/test-grid/erase-all.pl
+END
+load-all.pl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/tools/test-grid/load-all.pl
+END
+burn-macs.pl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/tools/test-grid/burn-macs.pl
+END
+reset-all.pl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/tools/test-grid/reset-all.pl
+END
+open-terms.pl
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/mc1322x/tools/test-grid/open-terms.pl
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/rest-coap
+END
+coap-server.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/rest-coap/coap-server.c
+END
+Makefile.rest-coap
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/rest-coap/Makefile.rest-coap
+END
+coap-common.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/rest-coap/coap-common.c
+END
+coap-server.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/rest-coap/coap-server.h
+END
+coap-common.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/rest-coap/coap-common.h
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/at91sam7s/openocd
+END
+AT91SAM7x_init.script
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/at91sam7s/openocd/AT91SAM7x_init.script
+END
+openocd_flash
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/at91sam7s/openocd/openocd_flash
+END
+arm7_wig_flash.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/at91sam7s/openocd/arm7_wig_flash.cfg
+END
+openocd_reset
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/at91sam7s/openocd/openocd_reset
+END
+arm7_wig.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/at91sam7s/openocd/arm7_wig.cfg
+END
+arm7_wig_reset.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/at91sam7s/openocd/arm7_wig_reset.cfg
+END

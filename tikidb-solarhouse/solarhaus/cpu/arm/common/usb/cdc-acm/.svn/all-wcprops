@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/cdc-acm
+END
+cdc.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/cdc-acm/cdc.h
+END
+cdc-acm-descriptors.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/cdc-acm/cdc-acm-descriptors.c
+END
+cdc-acm.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/cdc-acm/cdc-acm.c
+END
+cdc-acm-string-descriptors.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/cdc-acm/cdc-acm-string-descriptors.xml
+END
+cdc-acm.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/cpu/arm/common/usb/cdc-acm/cdc-acm.h
+END

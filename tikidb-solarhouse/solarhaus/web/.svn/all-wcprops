@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/21214/projects/WSN/TikiDB/branches/solarhaus/web
+END
+2011-07-25_Sensorreadings_solarhouse.sql
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/21214/projects/WSN/TikiDB/branches/solarhaus/web/2011-07-25_Sensorreadings_solarhouse.sql
+END
+sensorreadings@test.sql
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/20867/projects/WSN/TikiDB/branches/solarhaus/web/sensorreadings@test.sql
+END
+2011-07-19_Sensorreadings@solarhouse.sql
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/21152/projects/WSN/TikiDB/branches/solarhaus/web/2011-07-19_Sensorreadings@solarhouse.sql
+END
+style.css
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/19330/projects/WSN/TikiDB/branches/solarhaus/web/style.css
+END
+db_open.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/19373/projects/WSN/TikiDB/branches/solarhaus/web/db_open.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/20866/projects/WSN/TikiDB/branches/solarhaus/web/index.php
+END
+sensorreadings@home.sql
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/20315/projects/WSN/TikiDB/branches/solarhaus/web/sensorreadings@home.sql
+END
+wsn_solarhouse_struct.sql
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/20315/projects/WSN/TikiDB/branches/solarhaus/web/wsn_solarhouse_struct.sql
+END

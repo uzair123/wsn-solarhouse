@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/telnetd
+END
+telnetd.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/telnetd/telnetd.c
+END
+telnetd-gui.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/telnetd/telnetd-gui.c
+END
+telnetd.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/telnetd/telnetd.h
+END
+telnetd-dsc.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/telnetd/telnetd-dsc.c
+END
+Makefile.telnetd
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/telnetd/Makefile.telnetd
+END
+telnetd-dsc.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/apps/telnetd/telnetd-dsc.h
+END

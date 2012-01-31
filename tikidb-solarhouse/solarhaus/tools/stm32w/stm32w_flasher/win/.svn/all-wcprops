@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/stm32w/stm32w_flasher/win
+END
+JlinkARM.DLL
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/stm32w/stm32w_flasher/win/JlinkARM.DLL
+END
+_ctypes.pyd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/stm32w/stm32w_flasher/win/_ctypes.pyd
+END
+_socket.pyd
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/stm32w/stm32w_flasher/win/_socket.pyd
+END
+d2xx._d2xx.pyd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/stm32w/stm32w_flasher/win/d2xx._d2xx.pyd
+END
+python26.dll
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/stm32w/stm32w_flasher/win/python26.dll
+END
+stm32w_flasher.exe
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/stm32w/stm32w_flasher/win/stm32w_flasher.exe
+END
+win32api.pyd
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/stm32w/stm32w_flasher/win/win32api.pyd
+END
+bz2.pyd
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/stm32w/stm32w_flasher/win/bz2.pyd
+END
+FTD2XX.dll
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/stm32w/stm32w_flasher/win/FTD2XX.dll
+END
+w9xpopen.exe
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/stm32w/stm32w_flasher/win/w9xpopen.exe
+END
+select.pyd
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/stm32w/stm32w_flasher/win/select.pyd
+END
+_ssl.pyd
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/stm32w/stm32w_flasher/win/_ssl.pyd
+END
+unicodedata.pyd
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/stm32w/stm32w_flasher/win/unicodedata.pyd
+END
+pywintypes26.dll
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/stm32w/stm32w_flasher/win/pywintypes26.dll
+END

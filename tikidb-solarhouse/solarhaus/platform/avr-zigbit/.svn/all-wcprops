@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/avr-zigbit
+END
+contiki-avr-zigbit-main.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/avr-zigbit/contiki-avr-zigbit-main.c
+END
+contiki-avr-zigbit.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/avr-zigbit/contiki-avr-zigbit.h
+END
+contiki-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/avr-zigbit/contiki-conf.h
+END
+Makefile.avr-zigbit
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/avr-zigbit/Makefile.avr-zigbit
+END
+loadable_prg.c
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/platform/avr-zigbit/loadable_prg.c
+END

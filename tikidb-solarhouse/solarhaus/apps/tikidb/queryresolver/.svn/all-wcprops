@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/20865/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb/queryresolver
+END
+queryresolver-util.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/20865/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb/queryresolver/queryresolver-util.c
+END
+queryresolver-util.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/20433/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb/queryresolver/queryresolver-util.h
+END
+queryresolver.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/20433/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb/queryresolver/queryresolver.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19327/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb/queryresolver/Makefile
+END
+queryresolver.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/20433/projects/WSN/TikiDB/branches/solarhaus/apps/tikidb/queryresolver/queryresolver.h
+END

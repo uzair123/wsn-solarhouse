@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces
+END
+Beeper.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/Beeper.java
+END
+RimeAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/RimeAddress.java
+END
+LED.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/LED.java
+END
+Position.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/Position.java
+END
+ApplicationSerialPort.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/ApplicationSerialPort.java
+END
+Battery.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/Battery.java
+END
+MoteAttributes.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/MoteAttributes.java
+END
+Button.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/Button.java
+END
+NoiseSourceRadio.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/NoiseSourceRadio.java
+END
+IPAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/IPAddress.java
+END
+MoteID.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/MoteID.java
+END
+Log.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/Log.java
+END
+ApplicationRadio.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/ApplicationRadio.java
+END
+CustomDataRadio.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/CustomDataRadio.java
+END
+SerialPort.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/SerialPort.java
+END
+ApplicationLED.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/ApplicationLED.java
+END
+PolledAfterAllTicks.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/PolledAfterAllTicks.java
+END
+PolledBeforeAllTicks.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/PolledBeforeAllTicks.java
+END
+PIR.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/PIR.java
+END
+Clock.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/Clock.java
+END
+PolledAfterActiveTicks.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/PolledAfterActiveTicks.java
+END
+Mote2MoteRelations.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/Mote2MoteRelations.java
+END
+PolledBeforeActiveTicks.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/PolledBeforeActiveTicks.java
+END
+Radio.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/java/se/sics/cooja/interfaces/Radio.java
+END

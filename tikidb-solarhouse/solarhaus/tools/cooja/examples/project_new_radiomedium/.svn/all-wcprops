@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/examples/project_new_radiomedium
+END
+cooja.config
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/examples/project_new_radiomedium/cooja.config
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/19326/projects/WSN/TikiDB/branches/solarhaus/tools/cooja/examples/project_new_radiomedium/build.xml
+END

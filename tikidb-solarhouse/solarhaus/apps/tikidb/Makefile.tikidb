@@ -1,0 +1,2 @@
+tikidb_src = database/db.c database/dbms.c database/db-list.c database/dbms-operations.c database/db-operations.c querymanager/querymanager.c querymanager/query-parser.c querymanager/querymanager-qidlist.c tikidb.c queryresolver/queryresolver-util.c queryresolver/queryresolver.c
+
