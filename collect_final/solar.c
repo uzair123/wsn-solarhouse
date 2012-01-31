@@ -14,9 +14,9 @@
 #include <stdlib.h>
 #include <string.h>
 /*---------------------------------------------------------------------------*/
-//#define SINK 1
+#define SINK 1
 #define SEND_INTERVAL_SECONDS 60		// standard: 60
-#define SETTLE_TIMEOUT_SECONDS 120		// standard: 120
+#define SETTLE_TIMEOUT_SECONDS 5		// standard: 120
 #define COLLECT_CHANNEL 130			// standard: 130
 #define NUM_RETRANSMITS 15			// standard: 15
 #define CC2420_TXPOWER 31			// standard: Maximum = 31

@@ -18,7 +18,7 @@
 #undef NETSTACK_CONF_RDC
 #endif
 //#define NETSTACK_CONF_RDC						nullrdc_driver
-#define NETSTACK_CONF_RDC						contikimac_driver
+#define NETSTACK_CONF_RDC						xmac_driver
 
 
 // MAC driver: (nullmac_driver | csma_driver )

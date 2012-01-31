@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 58
+obj_sky
+symbols.c
+symbols.h
+contiki-sky.a
+contiki-sky.map
+
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations
+END
+Streamable.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/Streamable.java
+END
+Visitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/Visitor.java
+END
+SOSSerializationVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/SOSSerializationVisitor.java
+END
+Visitable.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/Visitable.java
+END

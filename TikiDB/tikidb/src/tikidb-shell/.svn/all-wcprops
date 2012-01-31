@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/24513/projects/WSN/TikiDB/trunk/tikidb-shell
+END
+project-conf.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/24513/projects/WSN/TikiDB/trunk/tikidb-shell/project-conf.h
+END
+shell-tikidb.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/24513/projects/WSN/TikiDB/trunk/tikidb-shell/shell-tikidb.h
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/24513/projects/WSN/TikiDB/trunk/tikidb-shell/.project
+END
+base64.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/24513/projects/WSN/TikiDB/trunk/tikidb-shell/base64.c
+END
+.cproject
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/24513/projects/WSN/TikiDB/trunk/tikidb-shell/.cproject
+END
+base64.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/24513/projects/WSN/TikiDB/trunk/tikidb-shell/base64.h
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/24513/projects/WSN/TikiDB/trunk/tikidb-shell/README.txt
+END
+shell-tikidb.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/24513/projects/WSN/TikiDB/trunk/tikidb-shell/shell-tikidb.c
+END
+tikidb-shell.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/24513/projects/WSN/TikiDB/trunk/tikidb-shell/tikidb-shell.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/24513/projects/WSN/TikiDB/trunk/tikidb-shell/Makefile
+END

@@ -1,0 +1,966 @@
+/**
+ * Some info: What is left-recursion and why can't I use it?
+ * Left-recursion is when a nonterminal contains a recursive
+ * reference to itself that is not preceded by something that
+ * will consume tokens.
+ *
+ * The parsers produced by JavaCC work by recursive descent.
+ * Left-recursion is banned to prevent the generated subroutines
+ * from calling themselves recursively ad-infinitum.
+ * Consider the following obviously left recursive production:
+ * 
+ * void A() : {} {
+ *      A() B()
+ *    | C()
+ * }
+ * 
+ * This will translate to a Java subroutine of the form:
+ * void A() : {} {
+ *   if( some condition ) {
+ *           A();
+ *           B();
+ *   }
+ *   else {
+ *           C();
+ *   }
+ * }
+ *
+ * Now if the condition is ever true, we have an infinite
+ * recursion. JavaCC will produce an error message if you
+ * have left-recursive productions.
+ * The left-recursive production above can be transformed, using looping, to:
+ * void A() : {} {
+ *           C() ( B() )*
+ * }
+ * 
+ * or, using right-recursion, to:
+ * void A() : {} {
+ *           C() A1()
+ * }
+ * 
+ * void A1() : {} {
+ *           [ B() A1() ]
+ * }
+ * 
+ * where A1 is a new production. General methods for left-recursion
+ * removal can be found in any text book on compiling.
+ * In our more particular case, we have additionally the problem of
+ * operator precedence, that, in boolean algebra, the operators have
+ * the following precedence:
+ * Precedence level   Operator
+ *          1         brackets ( )
+ *          2         Boolean complement NOT
+ *          3         Boolean product AND
+ *          4         Boolean sum OR
+ *
+ * To overcome this problem, and since our left recursion results
+ * from the logical operators in our expressions, we can also eliminate 
+ * left recursion by establishing a hierarchy of expressions according
+ * to operator precedence.
+ * An example of this can be seen next. The operators "*" and "/" take
+ * precedence over (i.e. bind more tightly than) the operators "+" and "-". 
+ *
+ * E -> id
+ *    | num
+ *    | E ( * | / | + | - ) E
+ *    | "(" E ")"
+ *
+ * to
+ * E -> T ( ( + | - ) T )*
+ * T -> F ( ( * | / ) F )*
+ * F -> id
+ *    | num
+ *    | "(" E ")"
+ */
+
+options {
+  LOOKAHEAD = 2;
+  CHOICE_AMBIGUITY_CHECK = 2;
+  OTHER_AMBIGUITY_CHECK = 1;
+  STATIC = false;
+  DEBUG_PARSER = false;
+  DEBUG_LOOKAHEAD = false;
+  DEBUG_TOKEN_MANAGER = false;
+  ERROR_REPORTING = true;
+  JAVA_UNICODE_ESCAPE = false;
+  UNICODE_INPUT = false;
+  IGNORE_CASE = true;
+  USER_TOKEN_MANAGER = false;
+  USER_CHAR_STREAM = false;
+  BUILD_PARSER = true;
+  BUILD_TOKEN_MANAGER = true;
+  SANITY_CHECK = true;
+  FORCE_LA_CHECK = false;
+}
+
+PARSER_BEGIN(TikiDBParser)
+package de.tud.dvs.parser.javacc;
+
+import java.util.Vector;
+import de.tud.dvs.parser.Tools;
+import de.tud.dvs.parser.operations.*;
+
+public class TikiDBParser {
+
+  private static boolean debug = true;
+
+  private static TikiDBParser instance = null;
+	
+  public static TikiDBParser getInstance() {
+    if (instance == null)
+      instance = new TikiDBParser(System.in);
+    return instance;
+  }
+  
+  private TikiDBParser() {
+  }
+  
+}
+
+PARSER_END(TikiDBParser)
+
+SKIP :
+{
+  " "
+| "\t"
+| "\r"
+| "\n"
+}
+
+
+TOKEN : /* BINARY LOGICAL OPERATORS */
+{
+    < AND: ("AND" | "&" | "&&") >
+  |	< OR: ("OR" | "|" | "||") >
+}
+
+TOKEN : /* UNARY LOGICAL OPERATORS */
+{
+	< NOT: ("NOT" | "not" | "~") >
+}
+
+TOKEN : /* COMPARISON OPERATORS */
+{
+    < EQUAL: ("=" | "==") >
+  |	< DISTINCT: "!=" >
+  |	< GREATERTHAN: ">" >
+  |	< LESSTHAN: "<" >
+  |	< GREATEROREQUAL: (">=" | "=>") >
+  |	< LESSOREQUAL: ("<=" | "=<") >
+}
+
+TOKEN : /* BOOLEAN */
+{
+    < BOOLEAN: (<TRUE> | <FALSE>) >
+  | < #TRUE:  ("TRUE") >
+  | < #FALSE: ("FALSE") >
+}
+
+TOKEN : /* Sensor Types */
+{
+    < SENSOR_TYPE: ( "LIGHT_AMBIENT" | "LIGHT_PAR" | "HUMIDITY" | "TEMPERATURE" | "INTERNAL_TEMPERATURE" | "ACCEL_X" | "ACCEL_Y" | "INTERNAL_VOLTAGE" ) >
+}
+
+TOKEN : /* TikiDB keywords */
+{
+    < SELECT: "SELECT" >
+  | < FROM: "FROM" >
+  | < WHERE: "WHERE" >
+  | < GROUP: "GROUP" >
+  | < BY: "BY" >
+  | < SAMPLE: "SAMPLE" >
+  | < PERIOD: "PERIOD" >
+  | < LIFETIME: "LIFETIME" >
+  | < SENSORS: "SENSORS" >
+  | < SUBSCOPES: "SUBSCOPES" >
+}
+
+TOKEN : /* Scopes keywords */
+{
+    < NODE_ID: "NODE_ID" >
+  | < REPOSITORY_KEY: "REPOSITORY_KEY" >
+  | < CREATE: "CREATE" >
+  | < REMOVE: "REMOVE" >
+  | < SEND: "SEND" >
+  | < DATA: "DATA" >
+  | < SCOPE: "SCOPE" >
+  | < AS: "AS" >
+  | < SUBSCOPE: "SUBSCOPE" >
+  | < EXISTS: "EXISTS" >
+  | < SENSOR: "SENSOR" >
+  | < PAYLOAD: "PAYLOAD" >
+  | < SOURCE_MODULE: "SOURCE_MODULE" >
+  | < DEST_MODULE: "DEST_MODULE" >
+  | < TYPE: "TYPE" >
+  | < IN: "IN" >
+  | < POLYGON: "POLYGON" >
+  | < SPHERE: "SPHERE" >
+  | < NODE_POSITION: "NODE_POSITION" >
+}
+
+
+TOKEN : /* Common keywords */
+{
+    < OF: "OF" >
+}
+
+TOKEN :
+{
+    < HEX_DATA: "0x" <HEX_CHAR> <HEX_CHAR> >
+  | < #HEX_CHAR: ( ["A"-"F"] | ["0"-"9"] ) >
+}
+
+TOKEN : /* Scope Identifiers */
+{
+    < SCOPE_IDENTIFIER: (<LETTER> | ["_"]) (<LETTER> | <DIGIT> | "_" )* >
+  | < #LETTER: ["A"-"Z"] >
+  | < #DIGIT: ["0"-"9"] >
+}
+
+TOKEN : /* Numeric CONSTANTS */
+{
+    < NUM: (["-","+"])? ( ["0"-"9"] )+ >
+}
+
+// ----------------------
+
+JScopeMsg parseScopeOperation() :
+{
+  JScopeMsg msg;
+}
+{
+  ( msg = scopeCreation() | msg = scopeData() | msg = scopeRemoval() )
+  {
+    return msg;
+  }
+}
+
+// ----------------------
+
+JScopeCreateMsg scopeCreation() :
+{
+  JScopeExpression exp;
+  JScopeCreateMsg message;
+  String scopeIdentifierStr;
+  String superScopeIdentifierStr;
+  int scopeId = 0;
+  int superScopeId = 0;
+}
+{
+  {
+  	if (Tools.debugLevel()>4)
+  	  System.out.println("[TikiDBParser::scopeCreation()] CREATE SCOPE (begin)");
+  }
+  <CREATE> <SCOPE> <SCOPE_IDENTIFIER>
+  {
+    scopeIdentifierStr =  token.image.trim();
+  } 
+  <AS> exp = scopeExpressionL1()
+  {
+  	if (Tools.debugLevel()>4)
+  	  System.out.println("[TikiDBParser::scopeCreation()] CREATE SCOPE (end)");
+  	  
+  	message = new JScopeCreateMsg();
+  	
+  	scopeId = Tools.hashName(scopeIdentifierStr);
+  	  	
+  	if (Tools.debugLevel()>3) {
+  	  System.out.println("[TikiDBParser::scopeCreation()] Scope Name: " + scopeIdentifierStr);
+	  System.out.println("[TikiDBParser::scopeCreation()] Chosen scopeId: " + scopeId);
+	}
+	
+  	message.setScopeId(scopeId);
+  	
+  	message.setJScopeExpression(exp);
+  }
+  [ <SUBSCOPE> <OF> <SCOPE_IDENTIFIER> 
+  {
+    superScopeIdentifierStr =  token.image.trim();
+
+  	superScopeId = Tools.hashName(superScopeIdentifierStr);
+  	  	
+  	if (Tools.debugLevel()>3) {
+  	  System.out.println("[TikiDBParser::scopeCreation()] SuperScope Name: " + superScopeIdentifierStr);
+	  System.out.println("[TikiDBParser::scopeCreation()] Chosen superScopeId: " + superScopeId);
+	}
+	
+  }
+  ]
+  {
+  	message.setSuperScopeId(superScopeId);
+
+  	return message;
+  } 
+}
+
+// ----------------------
+
+JScopeDataMsg scopeData() :
+{
+  JScopeDataMsg message;
+  String scopeIdentifierStr, hexDataStr;
+  int scopeId = 0;
+  int value = 0;
+}
+{
+  {
+  	if (Tools.debugLevel()>4)
+  	  System.out.println("[TikiDBParser::scopeData()] SEND DATA SCOPE (begin)");
+  }
+  <SEND> <DATA> <SCOPE> <SCOPE_IDENTIFIER> 
+  {
+    scopeIdentifierStr = token.image.trim();
+    if (Tools.debugLevel()>4)
+      System.out.println("[TikiDBParser::scopeData()] SEND DATA SCOPE (end)");
+  	  
+    message = new JScopeDataMsg();
+  	
+  	scopeId = Tools.hashName(scopeIdentifierStr);
+  	  	  	  	
+    if (Tools.debugLevel()>3) {
+  	  System.out.println("[TikiDBParser::scopeData()] Scope Name: " + scopeIdentifierStr);
+      System.out.println("[TikiDBParser::scopeData()] Chosen scopeId: " + scopeId);
+    }
+	
+    message.setScopeId(scopeId);
+  } 
+
+  <DEST_MODULE> <NUM>    
+  {
+    try
+    {
+      value = Integer.valueOf( token.image.trim() ).intValue();
+    }
+    catch (NumberFormatException ee)
+    {
+  	  value = new Integer(Integer.MAX_VALUE).intValue();
+    }
+
+    message.setDestinationModuleId(value);
+  }
+
+  <SOURCE_MODULE> <NUM>
+  {
+    try
+    {
+      value = Integer.valueOf( token.image.trim() ).intValue();
+    }
+    catch (NumberFormatException ee)
+    {
+  	  value = new Integer(Integer.MAX_VALUE).intValue();
+    }
+
+    message.setSourceModuleId(value);
+  }
+
+  <TYPE> <NUM>    
+  {
+    try
+    {
+      value = Integer.valueOf( token.image.trim() ).intValue();
+    }
+    catch (NumberFormatException ee)
+    {
+  	  value = new Integer(Integer.MAX_VALUE).intValue();
+    }
+
+    message.setMessageType(value);
+  }
+
+  <PAYLOAD>
+    ( <HEX_DATA> 
+    {
+      hexDataStr = token.image.trim();
+      try {
+      	hexDataStr = hexDataStr.substring(2);
+      	message.addPayloadInteger(Integer.parseInt(hexDataStr, 16));
+      } catch (NumberFormatException ex) {
+        throw new ParseException("A hexadecimal character is somewhat wrong!");
+      }
+    }
+    )+
+
+  {
+  	return message;
+  } 
+}
+
+// ----------------------
+
+JScopeRemoveMsg scopeRemoval() :
+{
+  JScopeRemoveMsg message;
+  String scopeIdentifierStr;
+  int scopeId;
+}
+{
+  {
+  	if (Tools.debugLevel()>3)
+  	  System.out.println("[TikiDBParser::scopeRemoval()] REMOVE SCOPE (begin)");
+  }
+  <REMOVE> <SCOPE> <SCOPE_IDENTIFIER> 
+  {
+  	scopeIdentifierStr = token.image.trim();
+
+  	message = new JScopeRemoveMsg();
+
+  	scopeId = Tools.hashName(scopeIdentifierStr);
+  	  	
+  	if (Tools.debugLevel()>4) {
+  	  System.out.println("[TikiDBParser::scopeRemoval()] Scope Name: " + scopeIdentifierStr);
+	  System.out.println("[TikiDBParser::scopeRemoval()] Chosen scopeId: " + scopeId);
+	}
+	
+  	message.setScopeId(scopeId);
+  	
+  	return message;
+  }
+}
+
+// ----------------------
+
+JScopeExpression scopeExpressionL1() :
+{
+  JScopeExpression exp1 = null, exp2 = null;
+  JScopeBinaryLogicalExpression result = null;
+}
+{
+  {
+  	if (Tools.debugLevel()>4)
+  	  System.out.println("[TikiDBParser::scopeExpressionL1()] OR scopeExpressionL1() - - (begin)");
+  }
+    exp1 = scopeExpressionL2()
+  {
+  	if (Tools.debugLevel()>4)
+  	  System.out.println("[TikiDBParser::scopeExpressionL1()] OR scopeExpressionL1() - - (middle0)");
+  }
+  
+    (
+    {
+      if (Tools.debugLevel()>4)
+  	    System.out.println("[TikiDBParser::scopeExpressionL1()] OR scopeExpressionL1() - - (middle1)");
+    }
+      <OR> exp2 = scopeExpressionL2() 
+    {
+      if (Tools.debugLevel()>4)
+  	    System.out.println("[TikiDBParser::scopeExpressionL1()] OR scopeExpressionL1() - - (middle2)");
+
+      if (result != null)
+        exp1 = result;
+
+      result = new JScopeBinaryLogicalExpression();
+
+      result.setOperator(JScopeLogicalExpression.OR);
+      result.setOperand1(exp1);
+      result.setOperand2(exp2);
+    }
+    )*
+  {
+  	if (Tools.debugLevel()>4)
+  	  System.out.println("[TikiDBParser::scopeExpressionL1()] OR scopeExpressionL1() - - (end)");
+  	  
+  	if (result == null)
+  	  return exp1;
+  	return result;
+  }
+}
+
+// ----------------------
+
+JScopeExpression scopeExpressionL2() :
+{
+  JScopeExpression exp1 = null, exp2 = null;
+  JScopeBinaryLogicalExpression result = null;
+}
+{
+  {
+  	if (Tools.debugLevel()>4)
+  	  System.out.println("[TikiDBParser::scopeExpressionL2()] AND scopeExpressionL2() - - (begin)");
+  }
+    exp1 = scopeExpressionL3()
+  {
+  	if (Tools.debugLevel()>4)
+  	  System.out.println("[TikiDBParser::scopeExpressionL2()] AND scopeExpressionL2() - - (middle0)");
+  }
+  
+    ( 
+    {
+      if (Tools.debugLevel()>4)
+  	    System.out.println("[TikiDBParser::scopeExpressionL2()] AND scopeExpressionL2() - - (middle1)");
+    }
+      <AND> exp2 = scopeExpressionL3() 
+    {
+      if (Tools.debugLevel()>4)
+  	    System.out.println("[TikiDBParser::scopeExpressionL2()] AND scopeExpressionL2() - - (middle2)");
+ 
+      if (result != null)
+        exp1 = result;
+
+      result = new JScopeBinaryLogicalExpression();
+
+      result.setOperator(JScopeLogicalExpression.AND);
+      result.setOperand1(exp1);
+      result.setOperand2(exp2);
+    }
+    )*
+  {
+  	if (Tools.debugLevel()>4)
+  	  System.out.println("[TikiDBParser::scopeExpressionL2()] AND  - - (end)");
+  	
+  	if (result == null)
+  	  return exp1;
+  	return result;
+  }
+}
+
+// ----------------------
+
+JScopeExpression scopeExpressionL3() :
+{
+  JScopeExpression exp;
+}
+{
+  {
+  	if (Tools.debugLevel()>4)
+  	  System.out.println("[TikiDBParser::scopeExpressionL3()] NOT -with not- (begin)");
+  }
+    <NOT> exp = scopeExpressionL4()
+  {
+  	if (Tools.debugLevel()>4)
+  	  System.out.println("[TikiDBParser::scopeExpressionL3()] NOT -with not- end)");
+
+    JScopeUnaryLogicalExpression result = new JScopeUnaryLogicalExpression();
+    
+    result.setOperand(exp);
+    result.setOperator(JScopeLogicalExpression.NOT);
+    
+    return result;
+  }
+
+  |
+  {
+  	if (Tools.debugLevel()>4)
+  	  System.out.println("[TikiDBParser::scopeExpressionL3()] NOT -without not- (begin)");
+  }
+    exp = scopeExpressionL4()
+  {
+  	if (Tools.debugLevel()>4)
+  	  System.out.println("[TikiDBParser::scopeExpressionL3()] NOT -without not- (end)");
+  	  
+  	return exp;
+  }
+}
+
+// ----------------------
+
+JScopeExpression scopeExpressionL4() :
+{
+  JScopeExpression exp;
+}
+{
+  {
+  	if (Tools.debugLevel()>4)
+  	  System.out.println("[TikiDBParser::scopeExpressionL4()] -term- (begin)");
+  }
+    exp = scopeTerm()
+  {
+  	if (Tools.debugLevel()>4)
+  	  System.out.println("[TikiDBParser::scopeExpressionL4()] -term- (end)");
+
+  	return exp;
+  }
+  |
+  {
+  	if (Tools.debugLevel()>4)
+  	  System.out.println("[TikiDBParser::scopeExpressionL4()] -parenthesis- (begin)");
+  }
+    "(" exp = scopeExpressionL1() ")"
+  {
+  	if (Tools.debugLevel()>4)
+  	  System.out.println("[TikiDBParser::scopeExpressionL4()] -parenthesis- (end)");
+
+  	return exp;
+  }
+}
+
+// ----------------------
+
+JScopeExpression scopeTerm() :
+{
+  JScopeTerm result;
+}
+{
+  ( result = scopeExistsSensorTerm() | result = scopeComparisonTerm() | result = scopeGeometricalTerm() )
+  {
+    return result;
+  }
+}
+
+// ----------------------
+
+JScopeTerm scopeExistsSensorTerm() :
+{}
+{
+  <EXISTS> <SENSOR> <SENSOR_TYPE>
+  {
+    JScopeExistsSensor ex = new JScopeExistsSensor();
+    
+    String sensor = token.image.trim();
+      
+    if (sensor.equalsIgnoreCase("LIGHT_AMBIENT"))
+      ex.setSensor(JScopeExistsSensor.SENSOR_LIGHT_AMBIENT);
+    else if (sensor.equalsIgnoreCase("LIGHT_PAR"))
+      ex.setSensor(JScopeExistsSensor.SENSOR_LIGHT_PAR);
+    else if (sensor.equalsIgnoreCase("HUMIDITY"))
+      ex.setSensor(JScopeExistsSensor.SENSOR_HUMIDITY);
+    else if (sensor.equalsIgnoreCase("TEMPERATURE"))
+      ex.setSensor(JScopeExistsSensor.SENSOR_TEMPERATURE);
+    else if (sensor.equalsIgnoreCase("INTERNAL_TEMPERATURE"))
+      ex.setSensor(JScopeExistsSensor.SENSOR_INTERNAL_TEMPERATURE);
+    else if (sensor.equalsIgnoreCase("ACCEL_X"))
+      ex.setSensor(JScopeExistsSensor.SENSOR_ACCEL_X);
+    else if (sensor.equalsIgnoreCase("ACCEL_Y"))
+      ex.setSensor(JScopeExistsSensor.SENSOR_ACCEL_Y);
+    else if (sensor.equalsIgnoreCase("INTERNAL_VOLTAGE"))
+      ex.setSensor(JScopeExistsSensor.SENSOR_INTERNAL_VOLTAGE);
+    else 
+      throw new ParseException("The specified sensor is somewhat wrong!");
+
+    return ex;
+  }
+}
+
+// ----------------------
+
+JScopeTerm scopeComparisonTerm() :
+{
+  JScopeOperand op1, op2;
+  int cOp;
+}
+{
+  {
+    JScopeComparison comp = new JScopeComparison();
+  }
+   
+  op1 = scopeComparisonOperand() cOp = scopeComparisonOperator() op2 = scopeComparisonOperand()
+  {
+    comp.setComparisonOperator(cOp);
+    comp.setOperand1(op1);
+    comp.setOperand2(op2);
+    
+    return comp;
+  }
+} 
+
+// ----------------------
+
+JScopeOperand scopeComparisonOperand() :
+{}
+{
+
+    <SENSOR_TYPE>
+  {
+    JScopeRepositoryKey k = new JScopeRepositoryKey();
+
+    String sensor = token.image.trim();
+      
+    if (sensor.equalsIgnoreCase("LIGHT_AMBIENT"))
+      k.setRepositoryKey(JScopeExistsSensor.SENSOR_LIGHT_AMBIENT);
+    else if (sensor.equalsIgnoreCase("LIGHT_PAR"))
+      k.setRepositoryKey(JScopeExistsSensor.SENSOR_LIGHT_PAR);
+    else if (sensor.equalsIgnoreCase("HUMIDITY"))
+      k.setRepositoryKey(JScopeExistsSensor.SENSOR_HUMIDITY);
+    else if (sensor.equalsIgnoreCase("TEMPERATURE"))
+      k.setRepositoryKey(JScopeExistsSensor.SENSOR_TEMPERATURE);
+    else if (sensor.equalsIgnoreCase("INTERNAL_TEMPERATURE"))
+      k.setRepositoryKey(JScopeExistsSensor.SENSOR_INTERNAL_TEMPERATURE);
+    else if (sensor.equalsIgnoreCase("ACCEL_X"))
+      k.setRepositoryKey(JScopeExistsSensor.SENSOR_ACCEL_X);
+    else if (sensor.equalsIgnoreCase("ACCEL_Y"))
+      k.setRepositoryKey(JScopeExistsSensor.SENSOR_ACCEL_Y);
+    else if (sensor.equalsIgnoreCase("INTERNAL_VOLTAGE"))
+      k.setRepositoryKey(JScopeExistsSensor.SENSOR_INTERNAL_VOLTAGE);
+    else k.setRepositoryKey(0);
+
+    return k;
+  }
+    
+  | <REPOSITORY_KEY> <NUM>
+  {
+    int value = 0;
+    try
+    {
+      value = Integer.valueOf( token.image.trim() ).intValue();
+    }
+    catch (NumberFormatException ee)
+    {
+  	  value = new Integer(Integer.MAX_VALUE).intValue();
+    }
+
+    JScopeRepositoryKey k = new JScopeRepositoryKey();
+    k.setRepositoryKey(value);
+    return k;
+  }
+
+  | <NODE_ID>
+  {
+    return new JScopeNodeId();
+  }
+  
+  | <NUM>
+  {
+    int value = 0;
+    try
+    {
+      value = Integer.valueOf( token.image.trim() ).intValue();
+    }
+    catch (NumberFormatException ee)
+    {
+  	  value = new Integer(Integer.MAX_VALUE).intValue();
+    }
+
+    JScopeConstant c = new JScopeConstant();
+    c.setNumericValue(value);
+    return c;
+  }
+  | <BOOLEAN>
+  {
+    boolean value = false;
+    try
+    {
+      value = Boolean.valueOf( token.image.trim() ).booleanValue();
+    }
+    catch (NumberFormatException ee)
+    {
+  	  value = false;
+    }
+
+    JScopeConstant c = new JScopeConstant();
+    c.setBooleanValue(value);
+    return c;
+  }
+}
+
+// ----------------------
+
+int scopeComparisonOperator() :
+{
+  Token t;
+}
+{
+  ( t = <EQUAL> |
+    t = <DISTINCT> |
+    t = <GREATERTHAN> |
+    t = <LESSTHAN> | 
+    t = <GREATEROREQUAL> | 
+    t = <LESSOREQUAL> )
+  {
+  	switch (t.kind) {
+  	  case EQUAL:           return JScopeComparison.EQUAL;
+      case DISTINCT:        return JScopeComparison.DISTINCT;
+	  case GREATERTHAN:     return JScopeComparison.GREATERTHAN;
+      case LESSTHAN:        return JScopeComparison.LESSTHAN;
+	  case GREATEROREQUAL:  return JScopeComparison.GREATERTHANOREQUAL;
+      case LESSOREQUAL:     return JScopeComparison.LESSTHANOREQUAL;
+    }
+  }
+}
+
+// ----------------------
+
+JScopeTerm scopeGeometricalTerm() :
+{
+}
+{
+  <IN> <POLYGON>
+  {
+    JScopePolygon poly;
+    JScopePoint point;
+    JScopeNodePosition pos;
+    JScopeGeometricOperation op = new JScopeGeometricOperation();
+    op.setGeometricOperator(JScopeGeometricOperation.IN_POLYGON);
+  } 
+  "(" 
+    poly = scopePolygon()
+    {
+      op.addGeometricElement(poly);
+    }
+     "," 
+    [
+      point = scopePoint()
+    {
+      op.addGeometricElement(point);
+    }
+    |
+      pos = scopeNodePosition()
+    {
+      op.addGeometricElement(pos);
+    }
+    ]
+  ")"
+  {
+    return op;
+  }
+  
+  |
+  
+    <IN> <SPHERE>
+  {
+    JScopeSphere sphere;
+    JScopePoint point;
+    JScopeNodePosition pos;
+    JScopeGeometricOperation op = new JScopeGeometricOperation();
+    op.setGeometricOperator(JScopeGeometricOperation.IN_SPHERE);
+  } 
+  "(" 
+    sphere = scopeSphere()
+    {
+      op.addGeometricElement(sphere);
+    }
+     "," 
+    [
+      point = scopePoint()
+    {
+      op.addGeometricElement(point);
+    }
+    |
+      pos = scopeNodePosition()
+    {
+      op.addGeometricElement(pos);
+    }
+    ]
+  ")"
+  {
+    return op;
+  }
+  
+}
+
+// ----------------------
+
+JScopePolygon scopePolygon() :
+{
+  Vector<JScopePoint> points = new Vector<JScopePoint>();
+  JScopePoint point;
+}
+{
+  <POLYGON> 
+  "("
+  
+  point = scopePoint()
+  {
+  	points.add(point);
+  }
+  
+  (
+    ","
+    point = scopePoint()
+    {
+  	  points.add(point);
+    }
+  )*
+  ")"
+   
+   {
+     JScopePolygon poly = new JScopePolygon();
+     poly.setPoints(points);
+     
+     return poly; 
+   }
+}
+
+// ----------------------
+
+JScopeSphere scopeSphere() :
+{
+  JScopePoint sphereCenter;
+  int radius;
+}
+{
+  <SPHERE> 
+  "(" 
+     sphereCenter = scopePoint() 
+     
+     ","
+     
+     <NUM>
+     {
+       try {
+         radius = Integer.valueOf( token.image.trim() ).intValue();
+       } catch (NumberFormatException ee) {
+         radius = -1;
+       }
+     }
+  ")"
+   
+  {
+    JScopeSphere sphere = new JScopeSphere();
+    sphere.setCenter(sphereCenter);
+    sphere.setRadius(radius);
+     
+    return sphere; 
+  }
+}
+
+// ----------------------
+
+JScopePoint scopePoint() :
+{
+  int x, y, z;
+}
+{
+  "[" <NUM> 
+  {
+    try
+    {
+      x = Integer.valueOf( token.image.trim() ).intValue();
+    }
+    catch (NumberFormatException ee)
+    {
+  	  x = 65535;
+    }
+  }
+  "," <NUM> 
+  {
+    try
+    {
+      y = Integer.valueOf( token.image.trim() ).intValue();
+    }
+    catch (NumberFormatException ee)
+    {
+  	  y = 65535;
+    }
+  }
+  "," <NUM> 
+  {
+    try
+    {
+      z = Integer.valueOf( token.image.trim() ).intValue();
+    }
+    catch (NumberFormatException ee)
+    {
+  	  z = 65535;
+    }
+  }
+  "]"
+  {
+    JScopePoint pos = new JScopePoint();
+    pos.setx(x);
+    pos.sety(y);
+    pos.setz(z);
+    return pos;
+  }
+  
+}
+
+// ----------------------
+
+JScopeNodePosition scopeNodePosition() :
+{
+}
+{
+  <NODE_POSITION>
+  {
+    return new JScopeNodePosition();
+  }
+}

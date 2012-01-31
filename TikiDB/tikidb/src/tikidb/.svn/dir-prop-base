@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 69
+obj_sky
+symbols.c
+symbols.h
+contiki-sky.a
+contiki-sky.map
+tester.sky
+
+END

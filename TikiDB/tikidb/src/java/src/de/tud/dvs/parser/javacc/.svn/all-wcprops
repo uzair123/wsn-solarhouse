@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/javacc
+END
+TikiDBParserTokenManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/javacc/TikiDBParserTokenManager.java
+END
+TikiDBParserConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/javacc/TikiDBParserConstants.java
+END
+Token.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/javacc/Token.java
+END
+TokenMgrError.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/javacc/TokenMgrError.java
+END
+SimpleCharStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/javacc/SimpleCharStream.java
+END
+TikiDBParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/javacc/TikiDBParser.java
+END
+ParseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/javacc/ParseException.java
+END

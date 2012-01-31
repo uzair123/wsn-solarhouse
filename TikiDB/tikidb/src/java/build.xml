@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="TikiDB-Java" default="dist" basedir=".">
+	<description>
+        Build file for TikiDB Java Interface
+	</description>
+
+	<!--  ==================================================================  -->
+	<!--  Global properties                                                   -->
+	<!--  ==================================================================  -->
+	<target name="init.variables" description="Initialization variables">
+		<property name="project.name" value="TikiDB-Java" />
+		<property name="javadocpackages" value="*" />
+		<property name="javadoc" value="api" />
+
+		<property name="src" location="src" />
+		<property name="build" location="bin" />
+		<property name="lib" location="lib" />
+		<property name="dist" location="dist" />
+		<property name="javacc.path" value="${lib}" />
+
+		<path id="project.class.path">
+			<!-- <pathelement location="${lib}/Chart2D-src.jar" /> -->
+		</path>
+
+		<path id="project.runtime.path">
+			<path refid="project.class.path" />
+			<pathelement location="${dist}/${project.name}.jar" />
+		</path>
+	</target>
+
+	<!--  ==================================================================  -->
+	<!--  Delete the ${build} and ${dist} directory trees                     -->
+	<!--  ==================================================================  -->
+	<target name="clean" depends="init" description="clean up">
+		<delete quiet="on" dir="${build}" />
+		<delete quiet="on" dir="${dist}" />
+		<delete quiet="on" dir="${javadocs}" />
+	</target>
+
+	<!--  ==================================================================  -->
+	<!--  Prepares everything the project would need                          -->
+	<!--  ==================================================================  -->
+	<target name="init" depends="init.variables">
+		<!-- Create the time stamp -->
+		<tstamp />
+		<!-- Create the build directory structure used by compile -->
+		<mkdir dir="${build}" />
+	</target>
+
+	<!--  ==================================================================  -->
+	<!--  Compile the source code for debug (debug on, not optimized)         -->
+	<!--  ==================================================================  -->
+	<target name="javacc" depends="init">
+		<mkdir dir="${src}/de/tud/dvs/parser/javacc" />
+		<javacc target="grammar/TikiDBSyntax.jj" outputdirectory="${src}/de/tud/dvs/parser/javacc" javacchome="${javacc.path}" />
+	</target>
+
+	<!--  ==================================================================  -->
+	<!--  produces documentation for the BNF grammar                          -->
+	<!--  ==================================================================  -->
+	<target name="jjdoc" depends="javacc">
+		<jjdoc target="grammar/TikiDBSyntax.jj" outputfile="grammar/TikiDBSyntax.html" javacchome="${javacc.path}" />
+		<jjdoc target="grammar/TikiDBSyntax.jj" outputfile="grammar/TikiDBSyntax.txt" javacchome="${javacc.path}" text="true" bnf="true"/>
+	</target>
+	<!--  ==================================================================  -->
+	<!--  Compile the Java code from ${src} into ${build}                     -->
+	<!--  ==================================================================  -->
+	<target name="compile" depends="javacc" description="compile the source">
+		<javac debug="true" debuglevel="source,lines" destdir="${build}" srcdir="${src}" deprecation="no">
+			<classpath refid="project.class.path" />
+		</javac>
+	</target>
+
+	<!--  ==================================================================  -->
+	<!--  Generates a distribution (jar) file                                 -->
+	<!--  ==================================================================  -->
+	<target name="dist" depends="compile">
+		<!-- Put everything in ${build} into the ${project.name}.jar file -->
+		<mkdir dir="${dist}" />
+		<jar basedir="${build}" destfile="${dist}/${project.name}.jar">
+			<manifest>
+				<attribute name="Built-By" value="${user.name}" />
+				<attribute name="Main-Class" value="de.tud.dvs.tikidb.host.console.TikiDBConsoleGUI" />
+				<attribute name="Implementation-Vendor" value="Databases and Distributed Systems Group" />
+			</manifest>
+			<!--<zipfileset src="${lib}/Chart2D-src.jar" includes="**/*.class" />-->
+			<!--<includesfile name="${lib}/Chart2D-src.jar"/>-->
+		</jar>
+	</target>
+
+	<!--  ==================================================================  -->
+	<!--  Runs the Forwarder                                                  -->
+	<!--  ==================================================================  
+	<target name="run" depends="dist">
+		<java classname="de.tud.dvs.sos.Forwarder" fork="yes">
+			<classpath refid="project.runtime.path" />
+			<arg line="${c}" />
+		</java>
+	</target>
+-->
+	<!--  ==================================================================  -->
+	<!--  Runs a Scopes Client GUI                                            -->
+	<!--  ==================================================================  
+	<target name="run.gui" depends="dist" description="Starts the GUI">
+		<java classname="de.tud.dvs.scopes.host.console.ScopesConsoleGUI" fork="yes">
+			<classpath refid="project.runtime.path" />
+		</java>
+	</target>
+-->
+	<!--  ==================================================================  -->
+	<!--  Runs a Scopes Interpreter                                           -->
+	<!--  ================================================================== 
+	<target name="run.int" depends="javacc, dist" description="Starts the Test Interpreter">
+		<java classname="de.tud.dvs.scopes.host.console.TestInterpreter" fork="yes">
+			<jvmarg value="-Xmx1536m" />
+			<classpath refid="project.runtime.path" />
+		</java>
+	</target>
+ -->
+	<!--  ==================================================================  -->
+	<!--  Runs a Scopes Parser Test                                           -->
+	<!--  ================================================================== 
+	<target name="test" depends="javacc, dist" description="Starts a Parser Test">
+		<java classname="de.tud.dvs.scopes.parser.test.ParserTest" fork="yes">
+			<classpath refid="project.runtime.path" />
+		</java>
+	</target>
+ -->
+
+</project>

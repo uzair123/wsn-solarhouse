@@ -1,0 +1,4 @@
+tikidb_src = table.c tikidb-buffer.c resultset.c dbms-operations.c tikidb-mgr.c statement.c queryresolver.c queryresolver-util.c tikidb.c
+
+CFLAGS += -DDEBUG_LEVEL=1
+APPS += scopes-tikidb

@@ -56,13 +56,13 @@ value(int type)
 static int
 configure(int type, int c)
 {
-  return sky_sensors_configure(INPUT_CHANNEL, INPUT_REFERENCE, type, c);
+  return z1_sensors_configure(INPUT_CHANNEL, INPUT_REFERENCE, type, c);
 }
 /*---------------------------------------------------------------------------*/
 static int
 status(int type)
 {
-  return sky_sensors_status(INPUT_CHANNEL, type);
+  return z1_sensors_status(INPUT_CHANNEL, type);
 }
 /*---------------------------------------------------------------------------*/
 SENSORS_SENSOR(battery_sensor, BATTERY_SENSOR, value, configure, status);

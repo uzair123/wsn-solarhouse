@@ -1,0 +1,128 @@
+Scopes Grammar:
+===============
+The parser is case insensitive.
+We utilize JavaCC (version 4.0) to generate the parser. JavaCC will generate a recursive descendent parser.
+To prevent the generated subroutines from calling themselves recursively ad-infinitum, JavaCC doesn't allow left-recursion.
+Hence, the implemented parser is slightly different to the one shown next, however the accepted input is equivalent.
+
+Scope Operations
+----------------
+
+<OPERATION>             :== <SCOPE_CREATE> 
+                          | <SCOPE_REMOVE> 
+                          | <SCOPE_SEND_DATA>
+
+
+Scope Creation
+--------------
+
+<SCOPE_CREATE>          :== "CREATE SCOPE" <SCOPE_IDENTIFIER> "AS" <SCOPE_EXPRESSION> <SCOPE_PROPERTIES>
+
+<SCOPE_PROPERTIES>      :== ["SUBSCOPE OF" <SCOPE_IDENTIFIER>]
+//If no super scope is specified, the scope to be created is assumed to be subscope of 'world'.
+
+
+<SCOPE_EXPRESSION>      :== <SCOPE_EXPRESSION_TERM>
+                          | "(" <SCOPE_EXPRESSION> ")"
+                          | <NOT> <SCOPE_EXPRESSION>
+                          | <SCOPE_EXPRESSION> <AND> <SCOPE_EXPRESSION>
+                          | <SCOPE_EXPRESSION> <OR> <SCOPE_EXPRESSION>
+                     
+<SCOPE_EXPRESSION_TERM> :== <EXISTS_SENSOR_TERM> 
+                          | <COMPARISON_TERM>
+                          | <GEOMETRICAL_TERM>
+                          
+<EXISTS_SENSOR_TERM>    :== "EXISTS SENSOR" <SENSOR_TYPE>
+
+<COMPARISON_TERM>       :== <COMPARISON_OPERAND> <COMPARISON_OPERATOR> <COMPARISON_OPERAND>
+
+<GEOMETRICAL_TERM>      :== <IN_POLYGON>
+                          | <IN_SPHERE>
+                          | <IN_SEGMENT>
+
+<IN_POLYGON>            :== "IN" "POLYGON" "(" <POLYGON> "," <POINT> ")"
+
+<IN_SPHERE>             :== "IN" "SPHERE" "(" <SPHERE> "," <POINT> ")"
+
+<COMPARISON_OPERATOR>   :== <EQUAL> 
+                          | <DISTINCT> 
+                          | <GREATERTHAN>
+                          | <LESSTHAN>
+                          | <GREATEROREQUAL> 
+                          | <LESSOREQUAL>
+
+<COMPARISON_OPERAND>    :== <SENSOR_TYPE>
+                          | "REPOSITORY_KEY" <NUM>
+                          | <NODE_ID>
+                          | <CONSTANT>
+                       
+
+Scope Removal
+-------------
+
+<SCOPE_REMOVE>          :== "REMOVE SCOPE" <SCOPE_IDENTIFIER>
+
+
+Scope Data Traffic
+------------------
+
+<SCOPE_SEND_DATA>       :== "SEND SCOPE" <SCOPE_IDENTIFIER>
+                            "DEST_MODULE" <NUM> 
+                            "SOURCE_MODULE" <NUM>
+                            "TYPE" <NUM> 
+                            "PAYLOAD" <HEX_SEQUENCE>
+
+General rules
+-------------
+
+<SCOPE_IDENTIFIER>      :== (<LETTER> | ["_"]) (<LETTER> | <DIGIT> | "_" )*
+
+<SENSOR_TYPE>           :== "LIGHT_AMBIENT" 
+                          | "LIGHT_PAR" 
+                          | "HUMIDITY" 
+                          | "TEMPERATURE" 
+                          | "INTERNAL_TEMPERATURE" 
+                          | "ACCEL_X_SENSOR"
+                          | "ACCEL_Y_SENSOR"
+                          | "INTERNAL_VOLTAGE"
+                
+                
+<HEX_SEQUENCE>          :== ( <HEX_DATA> )+
+
+<HEX_DATA>              :== "0x" <HEX_NUM> <HEX_NUM>
+
+<DESTINATION>           :== "MANAGER"
+                          | "MEMBERS"
+                          | "SUBSCOPES"
+
+
+Geometric Elements:
+---------------------
+All applicable elements are 3D 
+
+<DISTANCE>              :== <NUM>
+//In this case, <NUM> must be an unsigned 16 bit integer (i.e. must be in [0, 65535])
+
+<POINT>                 :== "[" <NUM> "," <NUM> "," <NUM> "]"
+//In this case, <NUM> must be an unsigned 16 bit integer (i.e. must be in [0, 65535])
+                          | "NODE_POSITION"
+
+<SPHERE>                :== "SPHERE" "(" <CENTER> "," <DISTANCE> ")"
+// 'CENTER' is a point, while 'distance' is the radius
+
+<POLYGON>               :== "POLYGON" "(" <POINT> ("," <POINT>)* ")"
+// the polygon should have at least three points!
+
+<SEGMENT>               :== "SEGMENT" "(" <POINT> ("," <POINT>)* ")" 
+// the distance is the route width
+
+
+
+
+Geometric Operations to Support:
+--------------------------------
+Is node inside (or outside) of polygon?
+
+
+
+

@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes
+END
+JScopeGeometricOperation.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes/JScopeGeometricOperation.java
+END
+JScopeExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes/JScopeExpression.java
+END
+JScopeBinaryLogicalExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes/JScopeBinaryLogicalExpression.java
+END
+JScopeNodeId.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes/JScopeNodeId.java
+END
+JScopeRemoveMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes/JScopeRemoveMsg.java
+END
+JScopeSetupMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes/JScopeSetupMsg.java
+END
+JScopeTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes/JScopeTerm.java
+END
+JScopeExistsSensor.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes/JScopeExistsSensor.java
+END
+JScopeUnaryLogicalExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes/JScopeUnaryLogicalExpression.java
+END
+JScopeNodePosition.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes/JScopeNodePosition.java
+END
+JScopeCreateMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes/JScopeCreateMsg.java
+END
+JScopeComparison.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes/JScopeComparison.java
+END
+JScopeDataMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes/JScopeDataMsg.java
+END
+JScopeMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes/JScopeMsg.java
+END
+JScopeSphere.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes/JScopeSphere.java
+END
+JScopePolygon.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes/JScopePolygon.java
+END
+JScopeOperand.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes/JScopeOperand.java
+END
+JScopeGeometricElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes/JScopeGeometricElement.java
+END
+JScopeRepositoryKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes/JScopeRepositoryKey.java
+END
+JScopePoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes/JScopePoint.java
+END
+JScopeConstant.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes/JScopeConstant.java
+END
+JScopeLogicalExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/17271/projects/WSN/TikiDB/trunk/java/src/de/tud/dvs/parser/operations/scopes/JScopeLogicalExpression.java
+END

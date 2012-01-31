@@ -1,0 +1,6 @@
+#Version with scopes-flooding:
+#scopes-tikidb_src = frag_unicast.c scopes.c scopes-flooding.c scopes-membership-simple.c scopes-repository.c 
+#Version with scopes-selfur:
+scopes-tikidb_src = frag_unicast.c scopes.c scopes-selfur.c scopes-membership-simple.c scopes-repository.c
+
+CFLAGS += -DDEBUG_LEVEL=1
