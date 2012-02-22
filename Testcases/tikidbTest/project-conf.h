@@ -1,0 +1,3 @@
+#define NETSTACK_CONF_RDC_CHANNEL_CHECK_RATE 128
+#define NETSTACK_CONF_RDC xmac_driver
+#define NETSTACK_CONF_MAC csma_driver
