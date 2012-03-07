@@ -1,4 +1,4 @@
-CONTIKI_PROJECT = tikidb-collect
+CONTIKI_PROJECT = tikidb-collect testerMerge
 
 APPS = tikidb
 APPS += scopes-tikidb

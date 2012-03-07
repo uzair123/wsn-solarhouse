@@ -96,6 +96,8 @@ PROCESS_THREAD(tikidb_collect_process, ev, data) {
 	PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&control_timer));
 	PRINTF(1,"(TIKIDB SOLARHOUSE TESTER) tester application started\n");
 
+	tikidb_init(cb_shell_tikidb_result);
+
 	// TODO: nodes dürfen den scope nicht verlassen
 
 	// sink node control
