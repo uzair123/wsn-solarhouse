@@ -92,7 +92,7 @@ PROCESS_THREAD(tikidb_collect_process, ev, data) {
 	leds_off(LEDS_ALL);
 
 	/* wait a while */
-	etimer_set(&control_timer, 10 * CLOCK_SECOND);
+	etimer_set(&control_timer, 20 * CLOCK_SECOND);
 	PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&control_timer));
 	PRINTF(1,"(TIKIDB SOLARHOUSE TESTER) tester application started\n");
 
@@ -128,6 +128,10 @@ PROCESS_THREAD(tikidb_collect_process, ev, data) {
 		PRINTF(1,"(TIKIDB SOLARHOUSE TESTER) Opening scope %u\n", SCOPE_ID_INSIDE_UPPER);
 				tikidb_process_statement(scope_statement_upper_arr,
 						sizeof(scope_statement_upper_arr));
+		PRINTF(1,"(TIKIDB SOLARHOUSE TESTER) Waiting 1.1 tree rebuild periods\n");
+						etimer_set(&control_timer, 1.1 * SELFUR_ROUTING_REFRESH_INTERVAL * CLOCK_SECOND);
+		//		etimer_set(&control_timer, 2.5 * CLOCK_SECOND);
+				PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&control_timer));
 
 		// open scope for nodes inside the solar house (on the floor)
 		static uint8_t scope_statement_lower_arr[] = { //
@@ -151,6 +155,10 @@ PROCESS_THREAD(tikidb_collect_process, ev, data) {
 		PRINTF(1,"(TIKIDB SOLARHOUSE TESTER) Opening scope %u\n", SCOPE_ID_INSIDE_LOWER);
 				tikidb_process_statement(scope_statement_lower_arr,
 						sizeof(scope_statement_lower_arr));
+		PRINTF(1,"(TIKIDB SOLARHOUSE TESTER) Waiting 1.1 tree rebuild periods\n");
+						etimer_set(&control_timer, 1.1 * SELFUR_ROUTING_REFRESH_INTERVAL * CLOCK_SECOND);
+		//		etimer_set(&control_timer, 2.5 * CLOCK_SECOND);
+				PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&control_timer));
 
 		// open scope for nodes outside the solar house
 		static uint8_t scope_statement_outer_arr[] = { //
